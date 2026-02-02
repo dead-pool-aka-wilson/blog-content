@@ -1,98 +1,71 @@
 ---
-title: "AI와 함께 블로그를 만들다: 시작 (1/3)"
+title: "Building a Blog with AI: The Content Seed System"
 date: 2026-02-02
+author: Raoul
 categories: [meta]
 tags: [ai-blog-series, opencode, blog, content-creation]
 draft: false
-summary: "AI와 대화하며 블로그를 만들기로 결심한 이유와 콘텐츠 시드 시스템 구축기"
-series: ["AI와 블로그 만들기"]
+summary: "Why I stopped letting my AI conversations evaporate and built a system to harvest them into blog posts."
+series: ["Building a Blog with AI"]
 ---
 
-## 왜 블로그를 시작했나
+How much of your best thinking is currently rotting in a chat history you'll never open again?
 
-매일 AI와 대화한다. 코드를 짜다 막히면 물어보고, 아키텍처를 고민하면 같이 토론하고, 가끔은 철학적인 주제로 깊은 대화를 나누기도 한다. 그런데 어느 날 깨달았다. 이 대화들이 그냥 사라지고 있었다.
+Every day, I spend hours talking to AI. We debug complex race conditions, debate architectural trade-offs, and sometimes wander into deep philosophical territory. It's some of my most productive thinking.
 
-세션이 끝나면 휘발된다. 분명 어제 좋은 인사이트가 있었는데 기억이 안 난다. 비슷한 문제를 또 처음부터 설명하고 있다. 이건 낭비다.
+But until recently, it was all ephemeral. The moment I closed a session, those insights vanished. I found myself explaining the same context or solving the same edge cases twice because I couldn't recall the exact nuance of yesterday's breakthrough. It felt like a massive leak in my intellectual pipes.
 
-그래서 결심했다. AI와 나눈 대화를 기록하자. 그리고 그냥 기록만 하지 말고, 블로그 콘텐츠로 만들자.
+## The Discovery: Conversations as Content
 
-## 시작이 된 하나의 프롬프트
-
-모든 건 이 프롬프트에서 시작됐다:
+I realized I didn't need to "write" a blog in the traditional sense. I just needed to stop letting the work I was already doing evaporate. I gave the AI a specific directive:
 
 > "in dev folder of koed I want to gather prompts I wrote, Idea I had, misses we made and write blog contents with those. for example let's say i am creating blog with you right now, and I want this to be an content at the same time."
 
-돌아보면 이 프롬프트가 잘 작동한 이유가 있다.
+I wanted a system that captured three things:
+1. **Prompts**: Not just the text, but why they worked.
+2. **Ideas**: The raw sparks that happen mid-coding.
+3. **Misses**: The bugs, the failed assumptions, the "aha!" moments after an hour of frustration.
 
-첫째, **카테고리가 명확했다**. 프롬프트, 아이디어, 실수(misses) - 세 가지로 나눴다. AI가 구조를 잡기 쉬웠다.
+## The Solution: The Content Seed System
 
-둘째, **메타 인식이 있었다**. "지금 이 대화 자체도 콘텐츠가 됐으면 좋겠다"고 말했다. 이게 중요했다. 작업하면서 동시에 기록하는 시스템을 원한다는 걸 명확히 했다.
+I considered building a standalone tool or a separate database, but those felt like "more work." I needed something that lived where I already worked. I decided to integrate it into my existing Obsidian vault, **BrainFucked**.
 
-셋째, **열린 구조였다**. 세부 구현은 AI와 토론하면서 정하자는 태도. 너무 구체적으로 지정하지 않아서 더 좋은 아이디어가 나올 여지를 남겼다.
+Here is the structure we settled on:
 
-## 콘텐츠 시드 시스템
-
-AI와 대화해서 만든 시스템은 이렇다:
-
-```
+```text
 BrainFucked/10-Blog/
 ├── seeds/
-│   ├── prompts/     # 잘 작동한 프롬프트들
-│   ├── ideas/       # 떠오른 아이디어들
-│   └── misses/      # 실패와 교훈
-├── drafts/          # 작성 중인 글
-└── published/       # 발행된 글 (Hugo로 심링크)
+│   ├── prompts/     # Prompts that actually delivered
+│   ├── ideas/       # Raw insights to be developed
+│   └── misses/      # Failures and lessons learned
+├── drafts/          # Posts in progress
+└── published/       # Finalized content (symlinked to Hugo)
 ```
 
-**prompts**는 효과적이었던 프롬프트를 저장한다. 왜 잘 작동했는지 분석도 함께. 나중에 비슷한 상황에서 참고할 수 있다.
+I chose Obsidian because it allows me to use **wiki-links** to connect a raw "miss" to a final "post." It turns a flat list of files into a web of thought.
 
-**ideas**는 대화 중에 떠오른 인사이트다. "아, 이건 글로 쓸 만하다" 싶은 것들. 완성된 생각이 아니어도 된다. 씨앗(seed)이니까.
+## One Hub to Rule Them All
 
-**misses**는 실수와 실패를 기록한다. 버그, 잘못된 가정, 삽질한 경험. 이것도 콘텐츠다. 아니, 어쩌면 가장 가치 있는 콘텐츠다.
+I briefly debated keeping the blog content in a separate repo, but that violated my core principle: **reduce friction.**
 
-## 하나의 허브로 모으기
+If I have to switch contexts to record an idea, I won't do it. By making `BrainFucked` the central hub for everything—code, thoughts, and blog seeds—I removed the barrier between working and documenting.
 
-처음에는 별도 폴더를 만들려고 했다. `~/.content-seeds/` 같은. 그런데 생각해보니 이미 Obsidian 볼트가 있다. BrainFucked라는 이름의.
+- **Everything is searchable** in one place.
+- **Backups are unified.**
+- **Connections are organic.**
 
-> "Brain Fucked will be hub for every idea, content, post"
+## Reflection
 
-이게 내 원칙이 됐다. **하나의 볼트에 모든 걸 모은다.**
+This post itself is the first test of the system. I didn't sit down to "write" it from scratch. I pulled the initial prompt from `seeds/prompts/`, the "one hub" philosophy from `seeds/ideas/`, and even the memory of my failed script attempts from `seeds/misses/`.
 
-왜?
+It’s meta-recursive. The process of building the system generated the seeds, which then grew into this post.
 
-- 여러 곳에 흩어지면 나중에 못 찾는다
-- Obsidian의 위키링크로 아이디어끼리 연결할 수 있다
-- 검색이 한 곳에서 된다
-- 백업이 단순해진다
+## Moving Forward
 
-그래서 콘텐츠 시드 시스템도 BrainFucked 안에 넣었다. `10-Blog/seeds/`로.
+It wasn't entirely seamless. I spent two hours fighting with relative symlink paths that refused to resolve in Hugo, and I nearly deleted my entire `static` folder with a rogue bash script.
 
-## 지금까지 만든 것들
-
-이 시스템으로 지금까지 만든 것들:
-
-**Hugo 블로그**: PaperMod 테마로 세팅했다. 한국어가 기본이고 영어도 지원한다. Cloudflare Workers로 호스팅해서 raoulcoutard.com에서 볼 수 있다.
-
-**콘텐츠 시드 7개**: 아이디어 5개, 프롬프트 1개, 실수 2개를 이미 수확했다. 이 글을 쓰는 데도 그 시드들을 사용하고 있다.
-
-**자동화 플러그인**: OpenCode 세션이 시작될 때 자동으로 이전 세션을 훑어서 시드를 수확하는 플러그인을 만들었다. 아직 실험 중이지만 방향은 맞다.
-
-## 이 글 자체가 증거
-
-재미있는 건, 이 글 자체가 시스템이 작동한다는 증거라는 점이다.
-
-- 원래 프롬프트를 시드로 저장했다 → 이 글에서 인용했다
-- "하나의 허브" 아이디어를 시드로 저장했다 → 이 글의 한 섹션이 됐다
-- 블로그를 만드는 과정 자체가 → 블로그 콘텐츠가 됐다
-
-메타 재귀적이다. 콘텐츠를 만드는 시스템을 만들면서, 그 과정이 콘텐츠가 된다.
-
-## 다음 이야기
-
-완벽하게 순탄하지는 않았다. 심링크가 잘못된 경로를 가리키고 있어서 한참 헤맸다. Bash 스크립트가 이상한 이유로 조용히 실패했다. API 키를 어디에 저장할지 고민했다.
-
-다음 글에서는 이 과정에서 겪은 실패들과 그로부터 배운 것들을 이야기하겠다.
+In the next part, I’ll talk about those failures and why "misses" are often more valuable than the successes.
 
 ---
 
-*이 글은 AI와 대화하며 작성되었고, 그 대화 자체가 콘텐츠 시드가 되었다.*
+*This post was crafted in conversation with AI, harvesting the very seeds it helped plant.*
