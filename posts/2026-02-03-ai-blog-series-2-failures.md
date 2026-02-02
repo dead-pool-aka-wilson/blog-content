@@ -1,129 +1,106 @@
 ---
-title: "실패에서 배우기: 작은 실수들의 가치 (2/3)"
+title: "Learning from Failure: The Value of Small Mistakes"
 date: 2026-02-03
 categories: [meta]
 tags: [ai-blog-series, debugging, bash, symlink, lessons-learned]
 draft: false
-summary: "블로그를 만들면서 겪은 작은 실수들과 그로부터 배운 교훈"
-series: ["AI와 블로그 만들기"]
+summary: "Three concrete failures I encountered while building this blog and the lessons they left behind."
+series: ["Building a Blog with AI"]
+cover:
+  image: "/cover-series-2.png"
+  alt: "Film clapperboard with X marks"
 ---
 
-## 실수를 기록하는 이유
+Have you ever spent three hours debugging a problem, only to realize the solution was a single line you wrote six months ago? I do it more often than I'd like to admit.
 
-[이전 글](/posts/2026-02-02-ai-blog-series-1-start/)에서 콘텐츠 시드 시스템을 소개했다. prompts, ideas, 그리고 **misses**. 실수를 기록하는 카테고리다.
+In my [previous post](/posts/2026-02-02-ai-blog-series-1-start/), I introduced my content seed system. It has categories for prompts, ideas, and **misses**. That last one is where I record my failures.
 
-왜 실수를 기록할까?
+Why bother logging mistakes? 
 
-첫째, **같은 실수를 반복하지 않기 위해**. 기록하지 않으면 잊는다. 그리고 3개월 후에 똑같이 삽질한다.
+First, to stop the loops. If I don't write it down, I forget. Then three months later, I'll find myself digging the same hole. Second, it's for you. If I can share the mud I got stuck in, maybe you can walk around it. Finally, failure is just better content. Success stories are often polished and distant; failures are raw, specific, and relatable.
 
-둘째, **다른 사람에게 도움이 되니까**. 내가 헤맨 길을 누군가는 피해갈 수 있다.
+Here are three "misses" from the making of this blog.
 
-셋째, **실패 자체가 좋은 콘텐츠니까**. 성공 스토리보다 실패 스토리가 더 배울 게 많다. 구체적이고, 실제적이고, 공감된다.
+## 1. The Symlink Trap
 
-블로그를 만들면서 겪은 세 가지 실수를 공유한다.
+I cloned my blog repo, ran `hugo server`, and... nothing. The server was up, but the posts were gone.
 
-## 실수 1: 심링크의 함정
-
-Hugo 블로그를 클론하고 `hugo server`를 실행했다. 잘 된다. 그런데 포스트가 안 보인다.
-
-`content/posts/` 디렉토리를 확인했다. 파일이 없다. 이상하다. 분명 예전에 설정해뒀는데.
-
-알고 보니 `content/posts`가 심링크였다:
+I checked `content/posts/` and found an empty directory. I was confused. I had definitely set this up before. Then I checked the file details and saw the ghost:
 
 ```bash
 ls -la content/posts
-# lrwxr-xr-x  content/posts -> /Users/deok/brainFucked/10-Blog/published
+# lrwxr-xr-x  content/posts -> /Users/olduser/brainFucked/10-Blog/published
 ```
 
-문제가 보이는가? 현재 사용자는 `koed`인데, 심링크는 `/Users/deok/`를 가리키고 있다. 예전 맥에서 설정한 경로가 그대로 남아있었다.
+The problem was staring at me. My current user is `newuser`, but the symlink was still reaching for `/Users/olduser/`. I had moved to a new machine, restored my dotfiles, and assumed the paths would magically follow.
 
-**왜 이런 일이 생겼나:**
+**Why I thought that way:**
+I assumed that since the Git repository was the same, the environment would be identical. I forgot that **absolute paths are tied to a specific machine's soul**.
 
-- 맥을 새로 세팅하면서 dotfiles를 복사했다
-- git repo를 클론했다
-- 심링크의 절대 경로는 그대로 남았다
-- 에러 메시지가 없다 - 그냥 빈 디렉토리처럼 보인다
-
-**해결:**
-
+**The Fix:**
+I updated the symlink to the correct path:
 ```bash
 rm content/posts
-ln -s /Users/koed/Dev/BrainFucked/10-Blog/published content/posts
+ln -s /Users/newuser/Dev/BrainFucked/10-Blog/published content/posts
 ```
 
-**교훈:**
+**The Lesson:**
+Use relative paths for symlinks whenever possible. Also, when you see "nothing" where something should be, don't look for a bug in the code first—look at the plumbing.
 
-1. 가능하면 상대 경로 심링크를 써라
-2. 새 머신에서 dotfiles 복사 후, 절대 경로를 확인해라
-3. "아무것도 없음"이 에러일 수 있다
+## 2. Bash's Silent Kill
 
-## 실수 2: Bash의 숨겨진 동작
-
-테스트 스크립트를 만들었다. 첫 번째 테스트가 통과하면 카운터를 올린다. 그런데 스크립트가 첫 번째 테스트 직후에 종료된다. 에러 메시지 없이.
+I wrote a simple test script. Every time a test passed, it would increment a counter. But the script would just quit after the very first success. No error, no warning. Just dead.
 
 ```bash
 #!/bin/bash
-set -e  # 에러 시 즉시 종료
+set -e  # Exit immediately on error
 TESTS_PASSED=0
 
 log_success() {
     echo "[PASS] $1"
-    ((TESTS_PASSED++))  # 여기서 스크립트가 죽는다!
+    ((TESTS_PASSED++))  # The script dies right here
 }
 
-log_success "First test"  # 이것만 출력되고 종료
-log_success "Second test" # 여기까지 안 간다
+log_success "First test"
+log_success "Second test"
 ```
 
-**무슨 일이 일어난 건가:**
+**What happened:**
+I used the arithmetic expression `((TESTS_PASSED++))`. In Bash, this expression returns the value *before* the increment. 
 
-`((TESTS_PASSED++))` 는 산술 표현식이다. 이 표현식의 반환값은 **증가 후 값이 아니라 증가 전 값**이다.
+1. `TESTS_PASSED` starts at 0.
+2. `((TESTS_PASSED++))` returns 0.
+3. In Bash, a return value of 0 is considered "falsy" or an error code.
+4. Because I had `set -e` enabled, Bash saw that "error" and dutifully killed the script.
 
-- `TESTS_PASSED`가 0일 때
-- `((TESTS_PASSED++))` 는 0을 반환한다
-- Bash에서 0은 falsy다
-- `set -e` 때문에 falsy 반환값 → 스크립트 종료
-
-첫 번째 성공에서 죽는 아이러니.
-
-**해결:**
-
+**The Fix:**
+Switch to a safer increment method that doesn't rely on the return value of the expression:
 ```bash
 log_success() {
     echo "[PASS] $1"
-    TESTS_PASSED=$((TESTS_PASSED + 1))  # 이건 안전하다
+    TESTS_PASSED=$((TESTS_PASSED + 1))
 }
 ```
 
-**교훈:**
+**The Lesson:**
+`set -e` is great for catching unexpected errors, but it turns every minor syntax quirk into a landmine. Be especially careful with arithmetic in Bash; its logic is older and weirder than you think.
 
-1. `set -e`와 `((var++))` 조합은 위험하다
-2. 에러 없이 조용히 종료되는 게 가장 디버깅하기 어렵다
-3. Bash의 산술 연산자 반환값을 알아둬라
+## 3. Where to Put the API Keys
 
-## 실수 3: API 키를 어디에 둘 것인가
-
-OpenCode를 설정하면서 API 키가 필요했다. 처음에는 당연히 `~/.zshrc`에 넣으려 했다:
+When setting up OpenCode, I needed a place to store my Gemini API key. My first instinct was the classic `~/.zshrc`:
 
 ```bash
 export GEMINI_API_KEY="sk-..."
 ```
 
-그런데 뭔가 찜찜했다.
+But I felt uneasy. Exporting keys in a shell config is like leaving your house keys under the mat. Every single process you run can see them. They might end up in your shell history, and if you ever share your dotfiles, you might accidentally leak them to the world.
 
-> "putting api in shell config seems not good"
-
-맞다. 문제가 있다:
-
-- 모든 셸 프로세스에 키가 노출된다
-- 히스토리에 남을 수 있다
-- dotfiles를 git으로 관리하면 실수로 커밋할 수 있다
-
-**더 나은 방법 - macOS Keychain 래퍼:**
+**The Alternative: The Keychain Wrapper**
+Instead of a global export, I wrote a wrapper script that pulls the key from the macOS Keychain only when needed.
 
 ```bash
 #!/bin/bash
-# ~/bin/openclaw - 래퍼 스크립트
+# ~/bin/openclaw - A wrapper script
 
 fetch_key() {
     local keychain_name="$1"
@@ -134,46 +111,31 @@ fetch_key() {
 }
 
 export GEMINI_API_KEY=$(fetch_key "gemini-api-key") || exit 1
-
 exec /path/to/actual/command "$@"
 ```
 
-이렇게 하면:
+**Why this is better:**
+The key is stored securely in the system Keychain. It's only loaded into memory during the execution of that specific command. Once the command finishes, the key vanishes from the environment.
 
-- 키가 Keychain에 안전하게 저장된다
-- 명령어 실행 시에만 키가 환경변수에 로드된다
-- 명령어 종료 후 키가 사라진다
-- 다른 프로세스에 노출되지 않는다
+**The Lesson:**
+Don't settle for the "default" way if it feels insecure. A little bit of extra plumbing—like a wrapper script—can significantly reduce your security risk.
 
-| 방식 | 키 노출 범위 |
-|------|-------------|
-| ~/.zshrc export | 모든 셸, 모든 프로세스 |
-| 래퍼 스크립트 | 해당 명령어 실행 중에만 |
+## Recording the Mud
 
-**교훈:**
+These three mistakes have one thing in common: they were hard to find but easy to fix once discovered. 
 
-1. API 키를 셸 설정 파일에 넣지 마라
-2. macOS Keychain은 생각보다 쓰기 쉽다
-3. 래퍼 스크립트 패턴은 범용적으로 유용하다
+If I hadn't recorded them in my `misses/` category, I probably would have made them again in six months. By turning them into content, I'm forced to reflect on **why** they happened, which is the only way to actually learn.
 
-## 왜 이런 걸 기록하는가
+Failure is only a waste if you don't keep the receipt.
 
-이 세 가지 실수의 공통점이 있다.
+## Next Up
 
-1. **찾기 어렵다**: 에러 메시지가 없거나 모호하다
-2. **흔하다**: 나만 겪는 게 아니다
-3. **기록하지 않으면 잊는다**: 3개월 후에 또 헤맬 거다
-
-그래서 콘텐츠 시드 시스템에 `misses/` 카테고리를 만들었다. 실수할 때마다 기록한다. 나중에 블로그 글이 되든, 그냥 나만 참고하든.
-
-실패에서 배우려면 실패를 기록해야 한다.
-
-## 다음 이야기
-
-실수들을 정리하면서 흥미로운 패턴을 발견했다. 이 블로그를 만드는 과정 자체가 블로그 콘텐츠가 되고 있었다. 작업하면서 동시에 기록하고, 그 기록이 다시 콘텐츠가 된다.
-
-마지막 글에서는 이 모든 과정에서 발견한 흥미로운 패턴에 대해 이야기하겠다.
+While documenting these failures, I noticed an interesting pattern. The process of building this blog was becoming the content itself. In the final post of this series, I'll talk about this "meta-recursion" and how it changed my perspective on writing.
 
 ---
 
-*이 글에 나온 실수들은 모두 실제로 겪은 것들이고, `misses/` 시드로 먼저 기록되었다.*
+## Series
+
+1. [Building a Blog with AI: The Start](/posts/2026-02-02-ai-blog-series-1-start/)
+2. [Learning from Failure: The Value of Small Mistakes](/posts/2026-02-03-ai-blog-series-2-failures/)
+3. [Content Begets Content: The Discovery of Meta-Recursion](/posts/2026-02-04-ai-blog-series-3-meta/)
