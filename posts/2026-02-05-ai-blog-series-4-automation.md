@@ -1,32 +1,30 @@
 ---
 title: "How I Automated My Blog's Memory"
-date: 2026-02-04
+date: 2026-02-05
 author: Raoul
 categories: [meta]
 tags: [ai-blog-series, opencode, automation, skills, mcp, tooling]
 draft: false
-summary: "A look at the technical setup that allows my AI assistant to record ideas while I work, without me having to pause or take notes."
+summary: "Why I automated knowledge capture, and the technical setup that lets AI record ideas while I work."
 series: ["Building a Blog with AI"]
-cover:
-  image: "/cover-series-4.png"
-  alt: "Film clapperboard with gear icons"
 ---
+
+## Why: Friction is the Graveyard of Ideas
 
 I used to keep a "scratchpad" file that was essentially a graveyard of half-baked ideas. By the time I finished a coding task, I was usually too tired to document the clever bits or the mistakes I made along the way. I realized I was losing my best insights because the friction of manual capture was too high.
 
-This post explains the technical setup I built to solve this. I wanted my terminal to act as a passive observer that notices patterns and records them while I focus on the work itself.
+Friction kills capture. If you have to stop what you're doing, open a new file, and context-switch to "note-taking mode," you probably won't do it. To preserve the evolution of a project, the documentation must be a byproduct of the work, not a separate task. I wanted my environment to act as a passive observer—a system that notices patterns and records them while I focus on solving the problem at hand.
 
-## The Foundation: OpenCode
+## How: Teaching the Assistant to Watch
 
-I chose [OpenCode](https://opencode.ai) as my primary interface. It's an open-source CLI for Claude that runs natively in the terminal. I prefer this over a web UI because it can read my files and run commands directly. 
+The bridge between "working" and "recording" is an AI assistant that understands the value of what's happening in the terminal. I use [OpenCode](https://opencode.ai) as my primary interface because it runs natively in my dev environment, allowing it to see my files and execution history.
 
-The two features that made this automation possible are:
-1. **Persistent sessions**: I can pick up exactly where I left off.
-2. **Tool integration**: The AI can write to my "seeds" directory without me copy-pasting anything.
+To make this passive observation work, I had to teach the AI what to watch for. I did this through "skills"—instructional modules that define what constitutes a "seed" worth saving. By injecting these instructions into every session, the AI stops being just a code generator and starts acting as a digital archivist.
 
-## Teaching the AI What to Watch For
+## What: The Technical Implementation
 
-To make the AI useful, I had to define what "valuable information" looks like. I did this using a "skill"—a markdown file that provides specific instructions to the AI's system prompt.
+### 1. The Harvesting Skill
+I defined a skill that tells the AI exactly what to capture: prompts that worked, "aha!" moments, and even debugging failures.
 
 ```markdown
 # ~/.config/opencode/skills/content-seed.md
@@ -50,13 +48,8 @@ When working with the user, silently watch for:
 Write seeds to: ~/Dev/BrainFucked/10-Blog/seeds/
 ```
 
-When this skill is active, the AI doesn't just answer my questions. It starts noticing when I say things like "Wait, that's why the cache was failing." It then silently writes those insights to a seed file.
-
-## Removing the Friction
-
-At first, I had to remember to load the skill manually by typing `/content-seed`. This was still too much work. I wanted the harvesting to happen by default.
-
-I updated my configuration to inject this skill into every session:
+### 2. Always-On Configuration
+To remove the friction of manual activation, I updated my global configuration to inject this skill into every "Sisyphus" (executor) session automatically.
 
 ```json
 // ~/.config/opencode/oh-my-opencode.json
@@ -69,31 +62,24 @@ I updated my configuration to inject this skill into every session:
 }
 ```
 
-Now, the AI harvests insights without me asking. One of my own comments—"seed idea capture and naming should be automated"—actually triggered the creation of a seed that eventually became part of this article.
-
-## Handling the Backlog
-
-Skills work well during a session, but I also wanted to process sessions I'd already finished. For that, I wrote a small plugin:
+### 3. Backlog Processing with Plugins
+For sessions where I worked too fast or used a different agent, I wrote a `harvest-on-start` plugin. It scans the session history from the last 24 hours and prompts the AI to "harvest" any missed insights at the start of a new session.
 
 ```typescript
 // ~/.config/opencode/plugins/harvest-on-start.ts
 export default {
   name: 'harvest-on-start',
-  
   onSessionStart(context) {
-    // Check for unharvested sessions from last 24h
-    // Inject harvest instruction into first message
+    // Logic to check for unharvested sessions
+    // and inject harvest instructions
   }
 }
 ```
 
-This ensures that even if I worked on something quickly and forgot to check the seeds, the next time I open the terminal, the system looks back and captures what I missed.
+### 4. The MCP Configuration Trap
+Integrating these tools requires careful configuration of the Model Context Protocol (MCP). I lost an hour debugging a setup that worked in Claude Desktop but failed in OpenCode because of subtle schema differences.
 
-## The Configuration Trap
-
-Setting this up wasn't without hurdles. I spent an hour debugging an MCP (Model Context Protocol) configuration that worked in Claude Desktop but failed in OpenCode.
-
-My first attempt:
+**The Failure:**
 ```json
 "mcp-image": {
   "type": "stdio",
@@ -103,38 +89,24 @@ My first attempt:
 }
 ```
 
-It failed with a generic "Invalid input" error. After digging through the OpenCode documentation, I found the schema was slightly different:
-
+**The Fix:**
 ```json
 "mcp-image": {
-  "type": "local",                           // not "stdio"
-  "command": ["npx", "-y", "mcp-image"],    // single array
-  "environment": { "GEMINI_API_KEY": "..." } // not "env"
+  "type": "local",                           // OpenCode uses 'local'
+  "command": ["npx", "-y", "mcp-image"],    // Array for the full command
+  "environment": { "GEMINI_API_KEY": "..." } // 'environment', not 'env'
 }
 ```
 
-The lesson here was simple: don't assume tools that use the same protocol share the same configuration format.
-
 ## The Resulting Workflow
 
-Now, the process looks like this:
+Now, my workflow is invisible:
+1. **Work**: I solve problems in the terminal via OpenCode.
+2. **Observe**: The AI notices a relevant pattern or fix.
+3. **Capture**: It silently writes a "seed" file to my blog content directory.
+4. **Develop**: I later review these raw seeds and expand them into posts.
 
-1. I work on a task.
-2. The AI observes and writes seeds to my blog directory.
-3. The plugin processes any missed sessions.
-4. I later develop those raw seeds into posts like this one.
-
-Most of this is invisible. I focus on solving problems, and the system handles the documentation.
-
-## Is it Worth the Overhead?
-
-Every automation has costs. These skills add more tokens to every prompt, which makes responses slightly slower and more expensive. There are also "false positives" where the AI saves a thought that isn't actually that interesting.
-
-However, for me, the trade-off is clear. I’d rather delete five boring seeds than lose one great idea because I was too busy to write it down. 
-
-## What's Next
-
-The infrastructure is set, and the seeds are flowing. But a seed isn't a post yet. In the next part of this series, I'll show how I turn these raw, unpolished notes into the finished prose you're reading now.
+I’d rather delete five boring seeds than lose one great idea because I was too busy to write it down. By automating the memory of my blog, I can focus on the work, knowing the story is being told in the background.
 
 ---
 
