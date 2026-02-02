@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Obsidian - user-specific
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/*/data.json
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Large media (if needed)
+*.pdf
+*.csv
