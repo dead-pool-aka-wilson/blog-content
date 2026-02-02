@@ -1,6 +1,7 @@
 ---
 title: "How I Automated My Blog's Memory"
 date: 2026-02-04
+author: Raoul
 categories: [meta]
 tags: [ai-blog-series, opencode, automation, skills, mcp, tooling]
 draft: false

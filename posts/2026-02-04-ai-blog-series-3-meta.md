@@ -1,6 +1,7 @@
 ---
 title: "Content Begetting Content: The Discovery of Meta-Recursion"
 date: 2026-02-04
+author: Raoul
 categories: [meta]
 tags: [ai-blog-series, meta-content, ai-collaboration, workflow]
 draft: false

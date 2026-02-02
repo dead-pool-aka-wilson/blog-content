@@ -1,6 +1,7 @@
 ---
 title: "콘텐츠가 콘텐츠를 낳다: 메타 재귀의 발견"
 date: 2026-02-04
+author: Raoul
 categories: [meta]
 tags: [ai-blog-series, meta-content, ai-collaboration, workflow]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "Learning from Failure: The Value of Small Mistakes"
 date: 2026-02-03
+author: Raoul
 categories: [meta]
 tags: [ai-blog-series, debugging, bash, symlink, lessons-learned]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "블로그의 기억을 자동화하는 법"
 date: 2026-02-04
+author: Raoul
 categories: [meta]
 tags: [ai-blog-series, opencode, automation, skills, mcp, tooling]
 draft: false

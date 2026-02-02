@@ -1,6 +1,7 @@
 ---
 title: "Turning Seeds into Posts"
 date: 2026-02-05
+author: Raoul
 categories: [meta]
 tags: [ai-blog-series, content-creation, writing-process, workflow]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "씨앗을 글로 바꾸는 법"
 date: 2026-02-05
+author: Raoul
 categories: [meta]
 tags: [ai-blog-series, content-creation, writing-process, workflow]
 draft: false

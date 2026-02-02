@@ -1,6 +1,7 @@
 ---
 title: "실패에서 배우기: 작은 실수들의 가치"
 date: 2026-02-03
+author: Raoul
 categories: [meta]
 tags: [ai-blog-series, debugging, bash, symlink, lessons-learned]
 draft: false
