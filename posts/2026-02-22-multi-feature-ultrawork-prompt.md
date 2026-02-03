@@ -6,6 +6,8 @@ categories: [ai-prompting]
 tags: [ultrawork, multi-feature, git-workflow, plugin-development]
 draft: false
 summary: "Four features, one prompt, zero clarifications. How to structure multi-feature requests that don't need hand-holding."
+cover:
+  image: "/covers/cover-ultrawork.png"
 ---
 
 > "add checking pr review and commit limit per pr feature. add prompt information in issue and add prompt and response information in pr. ultrawork"
