@@ -1,6 +1,6 @@
 ---
-title: "검색"
+title: "Search"
 layout: "search"
 searchHidden: true
-description: "블로그 콘텐츠 검색"
+description: "Search the blog"
 ---
