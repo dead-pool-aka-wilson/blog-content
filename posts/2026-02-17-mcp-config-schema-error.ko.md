@@ -6,6 +6,8 @@ categories: [debugging]
 tags: [opencode, mcp, configuration]
 draft: false
 summary: "MCP 서버 설정이 Claude Desktop에서 작동했다. OpenCode에서는 검증에 실패했다. 같은 프로토콜, 다른 스키마."
+cover:
+  image: "/covers/cover-2026-02-17-mcp-config-schema-error.png"
 ---
 
 ```

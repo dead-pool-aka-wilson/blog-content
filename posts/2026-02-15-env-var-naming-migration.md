@@ -6,6 +6,8 @@ categories: [debugging]
 tags: [migration, env-vars, naming, breaking-change]
 draft: false
 summary: "The gateway failed with 'missing env var.' I had the token—just under the old project name."
+cover:
+  image: "/covers/cover-2026-02-15-env-var-naming-migration.png"
 ---
 
 ```

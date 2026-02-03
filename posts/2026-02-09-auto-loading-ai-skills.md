@@ -6,6 +6,8 @@ categories: [technical]
 tags: [opencode, configuration, skills, automation]
 draft: false
 summary: "Stop invoking AI skills manually. Configure them to auto-load, turning one-off commands into persistent background behaviors."
+cover:
+  image: "/covers/cover-2026-02-09-auto-loading-ai-skills.png"
 ---
 
 Why do I have to remember to invoke `/content-seed` every session?

@@ -6,6 +6,8 @@ categories: [debugging]
 tags: [symlink, path, migration, hugo]
 draft: false
 summary: "My Hugo blog showed zero posts. The content was there—just pointed at a user who doesn't exist on this machine."
+cover:
+  image: "/covers/cover-2026-02-14-symlink-absolute-path-trap.png"
 ---
 
 The blog was set up. Hugo ran without errors. But when I opened localhost:1313, the posts section was empty.

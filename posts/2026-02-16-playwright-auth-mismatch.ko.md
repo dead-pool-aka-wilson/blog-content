@@ -6,6 +6,8 @@ categories: [debugging]
 tags: [playwright, auth, integration-bug, mismatch]
 draft: false
 summary: "브라우저 인증 플로우를 완료했다. 스크립트는 여전히 'Auth required'라고 했다. 셸 래퍼와 TypeScript 구현이 '인증됨'이 무엇을 의미하는지에 대해 동의하지 않았다."
+cover:
+  image: "/covers/cover-2026-02-16-playwright-auth-mismatch.png"
 ---
 
 "Auth required. Please complete the browser authentication flow."

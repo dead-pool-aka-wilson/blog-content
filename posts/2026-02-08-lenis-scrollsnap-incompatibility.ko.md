@@ -6,6 +6,8 @@ categories: [technical]
 tags: [lenis, scroll-snap, css, javascript, gotcha]
 draft: false
 summary: "Lenis 스무스 스크롤과 CSS scroll-snap은 근본적으로 호환되지 않는다. 둘 다 스크롤 위치를 제어하려 하고, 하나만 이길 수 있다."
+cover:
+  image: "/covers/cover-2026-02-08-lenis-scrollsnap-incompatibility.png"
 ---
 
 스크롤 동작이 설명할 수 없는 방식으로 망가졌다.

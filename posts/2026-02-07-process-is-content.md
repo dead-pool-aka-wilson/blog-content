@@ -6,6 +6,8 @@ categories: [meta]
 tags: [meta, content-creation, AI, workflow]
 draft: false
 summary: "Stop separating 'the work' from 'writing about the work.' When you work with AI, the conversation itself is the content."
+cover:
+  image: "/covers/cover-2026-02-07-process-is-content.png"
 ---
 
 What if the messiest part of your work—the false starts, the debugging, the half-formed ideas—was exactly what people wanted to read?

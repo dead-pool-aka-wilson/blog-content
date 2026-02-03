@@ -6,6 +6,8 @@ categories: [meta]
 tags: [ai-blog-series, opencode, automation, skills, mcp, tooling]
 draft: false
 summary: "Why I automated knowledge capture, and the technical setup that lets AI record ideas while I work."
+cover:
+  image: "/covers/cover-2026-02-05-ai-blog-series-4-automation.png"
 series: ["Building a Blog with AI"]
 ---
 

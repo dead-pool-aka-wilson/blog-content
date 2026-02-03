@@ -6,6 +6,8 @@ categories: [meta]
 tags: [content, memes, visual, Gemini, social-media]
 draft: false
 summary: "AI 이미지 생성은 인상적이지만, 밈이 왜 작동하는지를 놓친다. 포맷 자체가 커뮤니케이션이다. 적응이 생성을 이긴다."
+cover:
+  image: "/covers/cover-2026-02-11-meme-adaptation-with-ai.png"
 ---
 
 AI가 생성한 이미지가 밈이 되려고 할 때마다, 뭔가 어색하다.

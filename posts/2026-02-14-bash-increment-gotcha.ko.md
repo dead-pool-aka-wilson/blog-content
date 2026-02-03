@@ -6,6 +6,8 @@ categories: [debugging]
 tags: [bash, gotcha, set-e, arithmetic]
 draft: false
 summary: "테스트 스크립트가 첫 번째 통과 테스트 후 조용히 죽었다. 범인: set -e와 결합된 ((var++))."
+cover:
+  image: "/covers/cover-2026-02-14-bash-increment-gotcha.png"
 ---
 
 스크립트가 완벽하게 작동했다—정확히 하나의 테스트에 대해.

@@ -6,6 +6,8 @@ categories: [meta]
 tags: [workflow, automation, productivity, morning-routine, ai-assistant]
 draft: false
 summary: "Teresa Torres에서 영감을 받아, 캘린더, 이메일, 뉴스레터를 하나의 데일리 브리핑 문서로 가져오는 단일 명령어를 만들었다—그리고 모든 곳에 동기화한다."
+cover:
+  image: "/covers/cover-2026-02-08-personal-today-command.png"
 ---
 
 아침 일정을 확인하는 게 다섯 개의 앱을 여는 대신 하나의 명령어로 가능하다면?

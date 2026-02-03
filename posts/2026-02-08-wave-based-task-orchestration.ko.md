@@ -6,6 +6,8 @@ categories: [technical]
 tags: [ai-orchestration, parallel-execution, task-planning, dependency-management]
 draft: false
 summary: "복잡한 작업을 의존성 인식 웨이브로 나누면 여러 AI 에이전트가 동시에 작업할 수 있다—하지만 이론적 병렬성이 항상 실제 실행과 일치하지는 않는다."
+cover:
+  image: "/covers/cover-2026-02-08-wave-based-task-orchestration.png"
 ---
 
 여러 AI 에이전트가 같은 코드베이스에서 작업할 때 서로 밟지 않게 어떻게 조율하는가?

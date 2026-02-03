@@ -6,6 +6,8 @@ categories: [debugging]
 tags: [migration, env-vars, naming, breaking-change]
 draft: false
 summary: "게이트웨이가 'env var 없음'으로 실패했다. 토큰은 있었다—옛 프로젝트 이름으로만."
+cover:
+  image: "/covers/cover-2026-02-15-env-var-naming-migration.png"
 ---
 
 ```

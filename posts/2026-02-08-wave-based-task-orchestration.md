@@ -6,6 +6,8 @@ categories: [technical]
 tags: [ai-orchestration, parallel-execution, task-planning, dependency-management]
 draft: false
 summary: "Breaking complex tasks into dependency-aware waves lets multiple AI agents work simultaneously—but theoretical parallelism doesn't always match practical execution."
+cover:
+  image: "/covers/cover-2026-02-08-wave-based-task-orchestration.png"
 ---
 
 How do you coordinate multiple AI agents working on the same codebase without them stepping on each other?

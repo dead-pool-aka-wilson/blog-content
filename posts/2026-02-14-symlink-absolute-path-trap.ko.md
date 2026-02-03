@@ -6,6 +6,8 @@ categories: [debugging]
 tags: [symlink, path, migration, hugo]
 draft: false
 summary: "Hugo 블로그가 포스트 0개를 보여줬다. 콘텐츠는 있었다—이 머신에 존재하지 않는 사용자를 가리키고 있었을 뿐."
+cover:
+  image: "/covers/cover-2026-02-14-symlink-absolute-path-trap.png"
 ---
 
 블로그가 설정됐다. Hugo가 에러 없이 실행됐다. 하지만 localhost:1313을 열었을 때, 포스트 섹션이 비어있었다.

@@ -6,6 +6,8 @@ categories: [ai-prompting]
 tags: [system-design, content-workflow, meta]
 draft: false
 summary: "One sentence launched an entire content capture system. Breaking down what made a vague-sounding prompt surprisingly effective."
+cover:
+  image: "/covers/cover-2026-02-20-anatomy-good-system-design-prompt.png"
 ---
 
 > "in dev folder of koed I want to gather prompts I wrote, Idea I had, misses we made and write blog contents with those. for example let's say i am creating blog with you right now, and I want this to be an content at the same time."

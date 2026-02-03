@@ -6,6 +6,8 @@ categories: [technical]
 tags: [lenis, scroll-snap, css, javascript, gotcha]
 draft: false
 summary: "Lenis smooth scroll and CSS scroll-snap are fundamentally incompatible. They both want control of scroll position, and only one can win."
+cover:
+  image: "/covers/cover-2026-02-08-lenis-scrollsnap-incompatibility.png"
 ---
 
 The scroll behavior was broken in a way I couldn't explain.

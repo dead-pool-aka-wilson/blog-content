@@ -6,6 +6,8 @@ categories: [meta]
 tags: [knowledge-management, obsidian, workflow, centralization]
 draft: false
 summary: "Stop fragmenting your notes across locations. A single Obsidian vault with everything—seeds, drafts, posts—creates connections you'd never see otherwise."
+cover:
+  image: "/covers/cover-2026-02-12-one-obsidian-vault-for-everything.png"
 ---
 
 Where do you put a note that's both a project idea and a blog seed?

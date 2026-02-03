@@ -6,6 +6,8 @@ categories: [ai-prompting]
 tags: [cloudinary, image-processing, css, film-aesthetic]
 draft: false
 summary: "포토샵 없음. 로컬 이미지 편집 없음. 스톡 사진을 무디한 홍콩 시네마로 바꾸는 CDN 변환만."
+cover:
+  image: "/covers/cover-2026-02-21-wong-kar-wai-color-grading-cloudinary.png"
 ---
 
 왕가위 영화 같은 느낌의 한국 청첩장을 원했다. 깊은 레드, 채도 낮은 톤, *화양연화*의 그 멜랑콜리한 따뜻함. 사진은 일반 스톡 이미지였다. 1960년대 홍콩처럼 느껴져야 했다.

@@ -6,6 +6,8 @@ categories: [meta]
 tags: [workflow, AI, automation, content-creation]
 draft: false
 summary: "수동으로 작업을 문서화하지 마라. 당신이 실제 생각에 집중하는 동안 AI가 조용히 통찰, 결정, 실수를 캡처하도록 설정하라."
+cover:
+  image: "/covers/cover-2026-02-08-invert-documentation-burden.png"
 ---
 
 모든 지식 노동자에게 같은 문제가 있다: 최고의 통찰은 그것을 적기에 너무 바쁠 때 일어난다.

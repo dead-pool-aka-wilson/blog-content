@@ -6,6 +6,8 @@ categories: [meta]
 tags: [content, memes, visual, Gemini, social-media]
 draft: false
 summary: "AI image generation is impressive, but it misses why memes work. The format IS the communication. Adaptation beats generation."
+cover:
+  image: "/covers/cover-2026-02-11-meme-adaptation-with-ai.png"
 ---
 
 Every time I see an AI-generated image trying to be a meme, something feels off.

@@ -6,6 +6,8 @@ categories: [technical]
 tags: [html5, dialog, lightbox, no-js, accessibility]
 draft: false
 summary: "이미지 라이트박스에 12KB의 JavaScript를 배포하지 마라. 네이티브 HTML dialog 엘리먼트가 10줄로 더 나은 접근성과 함께 해낸다."
+cover:
+  image: "/covers/cover-2026-02-13-html5-dialog-lightbox.png"
 ---
 
 이미지를 모달로 보여주는 것에 왜 12KB의 JavaScript를 배포하나?

@@ -6,6 +6,8 @@ categories: [ai-prompting]
 tags: [system-design, content-workflow, meta]
 draft: false
 summary: "한 문장이 전체 콘텐츠 캡처 시스템을 시작했다. 모호하게 들리는 프롬프트가 놀랍도록 효과적이었던 이유 분석."
+cover:
+  image: "/covers/cover-2026-02-20-anatomy-good-system-design-prompt.png"
 ---
 
 > "in dev folder of koed I want to gather prompts I wrote, Idea I had, misses we made and write blog contents with those. for example let's say i am creating blog with you right now, and I want this to be an content at the same time."

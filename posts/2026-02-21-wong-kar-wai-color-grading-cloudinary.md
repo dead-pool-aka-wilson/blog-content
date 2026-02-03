@@ -6,6 +6,8 @@ categories: [ai-prompting]
 tags: [cloudinary, image-processing, css, film-aesthetic]
 draft: false
 summary: "No Photoshop. No local image editing. Just CDN transforms that turn stock photos into moody Hong Kong cinema."
+cover:
+  image: "/covers/cover-2026-02-21-wong-kar-wai-color-grading-cloudinary.png"
 ---
 
 I wanted a Korean wedding invitation that felt like a Wong Kar-wai film. Deep reds, desaturated tones, that melancholic warmth of *In the Mood for Love*. The photos were generic stock images. They needed to feel like 1960s Hong Kong.

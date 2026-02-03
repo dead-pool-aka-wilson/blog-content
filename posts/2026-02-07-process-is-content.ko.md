@@ -6,6 +6,8 @@ categories: [meta]
 tags: [meta, content-creation, AI, workflow]
 draft: false
 summary: "'일하는 것'과 '일에 대해 쓰는 것'을 분리하지 마라. AI와 함께 일할 때, 대화 그 자체가 콘텐츠다."
+cover:
+  image: "/covers/cover-2026-02-07-process-is-content.png"
 ---
 
 만약 당신 작업의 가장 지저분한 부분—잘못된 시작, 디버깅, 반쯤 형성된 아이디어—이 정확히 사람들이 읽고 싶어하는 것이라면?

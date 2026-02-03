@@ -6,6 +6,8 @@ categories: [technical]
 tags: [html5, dialog, lightbox, no-js, accessibility]
 draft: false
 summary: "Stop shipping 12KB of JavaScript for image lightboxes. The native HTML dialog element does it in 10 lines with better accessibility."
+cover:
+  image: "/covers/cover-2026-02-13-html5-dialog-lightbox.png"
 ---
 
 Why am I shipping 12KB of JavaScript just to show an image in a modal?

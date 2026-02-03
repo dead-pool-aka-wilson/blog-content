@@ -6,6 +6,8 @@ categories: [meta]
 tags: [workflow, automation, productivity, morning-routine, ai-assistant]
 draft: false
 summary: "Inspired by Teresa Torres, I built a single command that pulls my calendar, email, and newsletters into a daily briefing document—then syncs it everywhere."
+cover:
+  image: "/covers/cover-2026-02-08-personal-today-command.png"
 ---
 
 What if checking your morning commitments took one command instead of opening five apps?

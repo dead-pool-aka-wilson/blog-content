@@ -6,6 +6,8 @@ categories: [debugging]
 tags: [opencode, oh-my-opencode, configuration]
 draft: false
 summary: "OpenCode failed with 'ProviderModelNotFoundError.' The model ID existed—just not spelled the way my config spelled it."
+cover:
+  image: "/covers/cover-2026-02-18-model-id-mismatch.png"
 ---
 
 ```
