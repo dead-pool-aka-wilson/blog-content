@@ -1,6 +1,7 @@
 ---
 title: "Shift-Left with AI: Automatic Code Review via Hooks"
 date: 2026-02-04
+author: Raoul
 categories: [DevOps, AI]
 tags: [code-review, automation, hooks, opencode]
 draft: false

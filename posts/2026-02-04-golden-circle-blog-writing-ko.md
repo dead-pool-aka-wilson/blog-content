@@ -1,6 +1,7 @@
 ---
 title: "기술 블로거를 위한 골든 서클: 왜 '왜(Why)'에서 시작해야 하는가"
 date: 2026-02-04
+author: Raoul
 categories: [Writing, Productivity]
 tags: [writing, blog, storytelling]
 draft: false

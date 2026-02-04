@@ -1,6 +1,7 @@
 ---
 title: "항상 켜진 스킬: AI 에이전트 행동을 지속적으로 만들기"
 date: 2026-02-03
+author: Raoul
 categories: [ai-agents, configuration]
 tags: [opencode, skills, automation, configuration]
 draft: false

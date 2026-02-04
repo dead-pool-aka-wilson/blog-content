@@ -1,6 +1,7 @@
 ---
 title: "Bash 3.2: macOS의 숨겨진 호환성 함정"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [bash, macos, compatibility]
 draft: false

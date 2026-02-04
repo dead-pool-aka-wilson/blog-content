@@ -6,6 +6,7 @@ categories: [technical]
 tags: [security, macos, keychain, api-keys, secrets-management]
 draft: false
 summary: "API 키는 셸 설정 파일에 있으면 안 된다. 필요할 때만 키체인에서 시크릿을 가져오는 래퍼 패턴을 소개한다."
+lang: ko
 cover:
   image: "/covers/cover-2026-02-07-secure-api-keys-macos-keychain.png"
 ---

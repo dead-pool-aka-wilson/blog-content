@@ -1,6 +1,7 @@
 ---
 title: "Defense in Depth: A 3-Zone Security Architecture for AI Agents"
 date: 2026-02-04
+author: Raoul
 categories: [Security, AI]
 tags: [security, architecture, ai-agents, defense-in-depth, moltbot]
 draft: false

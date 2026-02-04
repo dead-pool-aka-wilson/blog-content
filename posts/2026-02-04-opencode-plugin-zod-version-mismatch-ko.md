@@ -1,6 +1,7 @@
 ---
 title: "Zod 버전의 함정: OpenCode 플러그인 호환성 디버깅"
 date: 2026-02-04
+author: Raoul
 categories: [Engineering, OpenCode]
 tags: [opencode, plugins, zod, typescript, debugging]
 draft: false

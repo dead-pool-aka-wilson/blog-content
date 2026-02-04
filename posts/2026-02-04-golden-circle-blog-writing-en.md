@@ -1,6 +1,7 @@
 ---
 title: "The Golden Circle for Technical Writers: Why Your Blog Needs a 'Why'"
 date: 2026-02-04
+author: Raoul
 categories: [Writing, Productivity]
 tags: [writing, blog, storytelling]
 draft: false

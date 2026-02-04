@@ -1,6 +1,7 @@
 ---
 title: "심층 방어: 자율 AI 에이전트를 위한 3-Zone VM 아키텍처"
 date: 2026-02-03
+author: Raoul
 categories: [security, architecture]
 tags: [ai-agents, vm, orbstack, isolation, security-architecture]
 draft: false

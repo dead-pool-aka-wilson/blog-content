@@ -1,6 +1,7 @@
 ---
 title: "도구 내부가 크래시할 때: 서드파티 코드 디버깅"
 date: 2026-02-03
+author: Raoul
 categories: [debugging, tooling]
 tags: [debugging, race-condition, cli-tools, error-handling]
 draft: false

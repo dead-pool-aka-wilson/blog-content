@@ -1,6 +1,7 @@
 ---
 title: "설정 변경이 적용되지 않는 이유: 템플릿과 활성 설정의 차이"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [config, opencode]
 draft: false

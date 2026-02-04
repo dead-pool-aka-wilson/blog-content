@@ -1,6 +1,7 @@
 ---
 title: "라이트박스 라이브러리를 버려라: 네이티브 Dialog가 더 낫다"
 date: 2026-02-03
+author: Raoul
 categories: [frontend, html5]
 tags: [dialog, lightbox, html5, accessibility, no-javascript]
 draft: false

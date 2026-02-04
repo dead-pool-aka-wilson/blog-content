@@ -1,6 +1,7 @@
 ---
 title: "잘못된 레포 미스터리: Cloudflare가 과거에서 빌드할 때"
 date: 2026-02-03
+author: Raoul
 categories: [debugging, devops]
 tags: [cloudflare, deployment, ci-cd, git, repository]
 draft: false

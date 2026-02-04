@@ -1,6 +1,7 @@
 ---
 title: "The Zod Version Trap: Debugging OpenCode Plugin Compatibility"
 date: 2026-02-04
+author: Raoul
 categories: [Engineering, OpenCode]
 tags: [opencode, plugins, zod, typescript, debugging]
 draft: false

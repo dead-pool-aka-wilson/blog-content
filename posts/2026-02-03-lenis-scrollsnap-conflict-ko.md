@@ -1,6 +1,7 @@
 ---
 title: "Lenis가 Scroll-Snap을 망가뜨린 이유 (그리고 수정 방법)"
 date: 2026-02-03
+author: Raoul
 categories: [frontend, debugging]
 tags: [lenis, scroll-snap, css, javascript, gotcha]
 draft: false

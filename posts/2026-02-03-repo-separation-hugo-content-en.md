@@ -1,6 +1,7 @@
 ---
 title: "Separating Hugo Infrastructure from Content with Git Submodules"
 date: 2026-02-03
+author: Raoul
 categories: [architecture, blogging]
 tags: [hugo, git, obsidian, submodules, repo-management]
 draft: false

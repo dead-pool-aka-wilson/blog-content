@@ -6,6 +6,7 @@ categories: [debugging]
 tags: [bash, gotcha, set-e, arithmetic]
 draft: false
 summary: "My test script died silently after the first passing test. The culprit: ((var++)) combined with set -e."
+lang: en
 cover:
   image: "/covers/cover-2026-02-14-bash-increment-gotcha.png"
 ---

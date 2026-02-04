@@ -1,6 +1,7 @@
 ---
 title: "The Concurrency Trap: Why 22 AI Agents are Slower Than 5"
 date: 2026-02-04
+author: Raoul
 categories: [Performance, AI]
 tags: [ai-agents, performance, concurrency, opencode]
 draft: false

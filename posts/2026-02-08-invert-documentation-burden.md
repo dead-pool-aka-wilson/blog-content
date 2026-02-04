@@ -6,6 +6,7 @@ categories: [meta]
 tags: [workflow, AI, automation, content-creation]
 draft: false
 summary: "Stop documenting your work manually. Configure AI to silently capture insights, decisions, and mistakes while you focus on actual thinking."
+lang: en
 cover:
   image: "/covers/cover-2026-02-08-invert-documentation-burden.png"
 ---

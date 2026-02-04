@@ -1,6 +1,7 @@
 ---
 title: "Model ID Must Match Exactly: The Provider Lookup Gotcha"
 date: 2026-02-03
+author: Raoul
 categories: [debugging, configuration]
 tags: [opencode, llm, model-configuration, api]
 draft: false

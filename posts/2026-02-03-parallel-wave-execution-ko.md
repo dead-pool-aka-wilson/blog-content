@@ -1,6 +1,7 @@
 ---
 title: "웨이브 기반 태스크 오케스트레이션: 이론적 병렬성이 현실을 만날 때"
 date: 2026-02-03
+author: Raoul
 categories: [architecture, ai-agents]
 tags: [orchestration, parallel-execution, task-planning, dependency-management]
 draft: false

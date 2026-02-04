@@ -1,6 +1,7 @@
 ---
 title: "Playwright vs Invisible Modals: When Clicks Don't Click"
 date: 2026-02-03
+author: Raoul
 categories: [debugging, automation]
 tags: [playwright, browser-automation, google, modal, testing]
 draft: false

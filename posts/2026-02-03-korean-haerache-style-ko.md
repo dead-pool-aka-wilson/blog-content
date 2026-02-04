@@ -1,6 +1,7 @@
 ---
 title: "왜 기술 블로그를 해라체로 쓰는가"
 date: 2026-02-03
+author: Raoul
 categories: [writing, language]
 tags: [korean, writing-style, localization, tech-blogs]
 draft: false

@@ -6,6 +6,7 @@ categories: [ai-prompting]
 tags: [ultrawork, multi-feature, git-workflow, plugin-development]
 draft: false
 summary: "Four features, one prompt, zero clarifications. How to structure multi-feature requests that don't need hand-holding."
+lang: en
 cover:
   image: "/covers/cover-ultrawork.png"
 ---

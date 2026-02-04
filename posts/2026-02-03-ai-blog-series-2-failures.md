@@ -6,6 +6,7 @@ categories: [meta]
 tags: [ai-blog-series, debugging, bash, symlink, lessons-learned]
 draft: false
 summary: "Why I log my mistakes, and three concrete failures from building this blog."
+lang: en
 series: ["Building a Blog with AI"]
 cover:
   image: "/cover-series-2.png"

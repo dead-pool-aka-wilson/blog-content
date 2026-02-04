@@ -1,6 +1,7 @@
 ---
 title: "로컬 우선 모델 라우팅: API 낭비를 멈춰라"
 date: 2026-02-03
+author: Raoul
 categories: [architecture, AI]
 tags: [llm, routing, ollama, cost-optimization, apple-silicon]
 draft: false

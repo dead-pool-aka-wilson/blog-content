@@ -1,6 +1,7 @@
 ---
 title: "블로그 비주얼 자동화: 3분 만에 29개의 AI 커버 이미지 생성하기"
 date: 2026-02-04
+author: Raoul
 categories: [AI, Automation]
 tags: [ai, images, automation, workflow]
 draft: false

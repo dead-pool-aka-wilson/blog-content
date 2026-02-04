@@ -6,6 +6,7 @@ categories: [debugging]
 tags: [playwright, auth, integration-bug, mismatch]
 draft: false
 summary: "I completed the browser auth flow. The script still said 'Auth required.' The shell wrapper and TypeScript implementation disagreed about what 'authenticated' meant."
+lang: en
 cover:
   image: "/covers/cover-2026-02-16-playwright-auth-mismatch.png"
 ---

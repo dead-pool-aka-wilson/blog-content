@@ -1,6 +1,7 @@
 ---
 title: "Docker 샌드박스 AI 봇을 위한 안전한 테스팅"
 date: 2026-02-03
+author: Raoul
 categories: [devops, security]
 tags: [docker, sandbox, testing, ai-bots, safety]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "Zod를 직접 임포트하면 OpenCode 플러그인이 크래시되는 이유"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [opencode, zod, plugin, typescript, debugging]
 draft: false

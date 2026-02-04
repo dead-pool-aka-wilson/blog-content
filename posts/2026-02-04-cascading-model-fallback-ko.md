@@ -1,6 +1,7 @@
 ---
 title: "90% 비용 절감 전략: 계층적 모델 폴백(Cascading Fallback)"
 date: 2026-02-04
+author: Raoul
 categories: [AI, Cost-Optimization]
 tags: [ai, model-routing, fallback, cost-optimization, moltbot]
 draft: false

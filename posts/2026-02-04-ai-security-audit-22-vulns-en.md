@@ -1,6 +1,7 @@
 ---
 title: "22 Ways Your AI Agent Can Be Compromised: A Security Audit"
 date: 2026-02-04
+author: Raoul
 categories: [Security, AI]
 tags: [security, audit, ai-agents, vulnerabilities]
 draft: false

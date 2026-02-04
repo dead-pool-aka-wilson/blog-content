@@ -1,6 +1,7 @@
 ---
 title: "AI 에이전트 보안 감사 체크리스트: 반드시 확인해야 할 6가지 영역"
 date: 2026-02-03
+author: Raoul
 categories: [security, ai-agents]
 tags: [security-audit, ai-agents, devops, checklist, automation]
 draft: false

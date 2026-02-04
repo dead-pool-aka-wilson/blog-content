@@ -6,6 +6,7 @@ categories: [technical]
 tags: [security, macos, keychain, api-keys, secrets-management]
 draft: false
 summary: "Your API keys don't belong in shell config files. Here's a wrapper pattern that fetches secrets from Keychain only when needed."
+lang: en
 cover:
   image: "/covers/cover-2026-02-07-secure-api-keys-macos-keychain.png"
 ---

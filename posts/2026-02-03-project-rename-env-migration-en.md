@@ -1,6 +1,7 @@
 ---
 title: "The Hidden Pain of Project Renaming: Environment Variable Migration"
 date: 2026-02-03
+author: Raoul
 categories: [devops, debugging]
 tags: [migration, environment-variables, breaking-changes, project-management]
 draft: false

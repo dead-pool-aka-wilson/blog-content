@@ -6,6 +6,7 @@ categories: [debugging]
 tags: [playwright, google-ui, automation, modal]
 draft: false
 summary: "The button was visible. The selector found it. The click did nothing. An invisible modal overlay was stealing every interaction."
+lang: en
 cover:
   image: "/covers/cover-2026-02-19-google-modal-overlay-blocking.png"
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Git Submodules Don't Trigger CI: The Webhook Gotcha"
 date: 2026-02-03
+author: Raoul
 categories: [devops, git]
 tags: [git-submodule, ci-cd, cloudflare, deployment]
 draft: false

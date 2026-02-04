@@ -1,6 +1,7 @@
 ---
 title: "Shell vs TypeScript: When Auth Artifacts Don't Match"
 date: 2026-02-03
+author: Raoul
 categories: [debugging, integration]
 tags: [playwright, authentication, shell-scripts, typescript, cross-language]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "스킬 기반 AI 자동화 프레임워크 구축하기"
 date: 2026-02-04
+author: Raoul
 categories: [Engineering, AI]
 tags: [automation, skills, ai-agents, framework, architecture]
 draft: false

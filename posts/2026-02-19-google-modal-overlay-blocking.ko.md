@@ -6,6 +6,7 @@ categories: [debugging]
 tags: [playwright, google-ui, automation, modal]
 draft: false
 summary: "버튼이 보였다. 셀렉터가 찾았다. 클릭은 아무것도 안 했다. 보이지 않는 모달 오버레이가 모든 상호작용을 훔치고 있었다."
+lang: ko
 cover:
   image: "/covers/cover-2026-02-19-google-modal-overlay-blocking.png"
 ---

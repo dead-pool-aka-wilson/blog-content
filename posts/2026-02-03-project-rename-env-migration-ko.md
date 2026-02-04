@@ -1,6 +1,7 @@
 ---
 title: "프로젝트 이름 변경의 숨겨진 고통: 환경 변수 마이그레이션"
 date: 2026-02-03
+author: Raoul
 categories: [devops, debugging]
 tags: [migration, environment-variables, breaking-changes, project-management]
 draft: false

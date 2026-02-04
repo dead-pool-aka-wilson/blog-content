@@ -6,6 +6,7 @@ categories: [technical]
 tags: [docker, sandbox, security, testing, automation]
 draft: false
 summary: "When your AI bot can send texts and access real files, how do you test the sandbox without blowing up your actual data? A four-phase approach."
+lang: en
 cover:
   image: "/covers/cover-2026-02-10-phased-docker-sandbox-testing.png"
 ---

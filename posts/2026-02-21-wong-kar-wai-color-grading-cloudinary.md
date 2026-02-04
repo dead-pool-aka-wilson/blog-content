@@ -6,6 +6,7 @@ categories: [ai-prompting]
 tags: [cloudinary, image-processing, css, film-aesthetic]
 draft: false
 summary: "No Photoshop. No local image editing. Just CDN transforms that turn stock photos into moody Hong Kong cinema."
+lang: en
 cover:
   image: "/covers/cover-2026-02-21-wong-kar-wai-color-grading-cloudinary.png"
 ---

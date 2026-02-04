@@ -6,6 +6,7 @@ categories: [meta]
 tags: [knowledge-management, obsidian, workflow, centralization]
 draft: false
 summary: "노트를 여러 위치에 흩뜨리지 마라. 모든 것—시드, 초안, 포스트—을 담은 단일 Obsidian 볼트가 달리는 절대 보지 못할 연결을 만든다."
+lang: ko
 cover:
   image: "/covers/cover-2026-02-12-one-obsidian-vault-for-everything.png"
 ---

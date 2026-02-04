@@ -1,6 +1,7 @@
 ---
 title: "터미널 시작 속도 올리기: 쉘 완성(Completion) 캐싱의 필요성"
 date: 2026-02-04
+author: Raoul
 categories: [Engineering, Performance]
 tags: [shell, performance, cli, productivity]
 draft: false

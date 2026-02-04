@@ -1,6 +1,7 @@
 ---
 title: "Never Lose an Insight Again: Auto-Harvesting AI Sessions"
 date: 2026-02-04
+author: Raoul
 categories: [Knowledge Management, AI]
 tags: [automation, content-creation, knowledge-management, opencode]
 draft: false

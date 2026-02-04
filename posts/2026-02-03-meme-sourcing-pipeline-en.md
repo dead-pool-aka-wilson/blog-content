@@ -1,6 +1,7 @@
 ---
 title: "Why I Source Memes Instead of Generating Them"
 date: 2026-02-03
+author: Raoul
 categories: [content, opinion]
 tags: [memes, content-creation, ai-images, visual-content]
 draft: false

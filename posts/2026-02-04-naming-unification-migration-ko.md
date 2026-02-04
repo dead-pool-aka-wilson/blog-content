@@ -1,6 +1,7 @@
 ---
 title: "통합 네이밍 마이그레이션: 프리커밋 훅으로 기술 부채 뿌리 뽑기"
 date: 2026-02-04
+author: Raoul
 categories: [Engineering, DevOps]
 tags: [refactoring, migration, technical-debt, automation]
 draft: false

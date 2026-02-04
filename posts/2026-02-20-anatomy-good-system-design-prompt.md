@@ -6,6 +6,7 @@ categories: [ai-prompting]
 tags: [system-design, content-workflow, meta]
 draft: false
 summary: "One sentence launched an entire content capture system. Breaking down what made a vague-sounding prompt surprisingly effective."
+lang: en
 cover:
   image: "/covers/cover-2026-02-20-anatomy-good-system-design-prompt.png"
 ---

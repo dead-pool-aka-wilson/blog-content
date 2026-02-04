@@ -1,6 +1,7 @@
 ---
 title: "AI 에이전트 위임을 위한 구조화된 태스크 템플릿"
 date: 2026-02-03
+author: Raoul
 categories: [ai-agents, architecture]
 tags: [task-planning, delegation, prompt-engineering, ai-orchestration]
 draft: false

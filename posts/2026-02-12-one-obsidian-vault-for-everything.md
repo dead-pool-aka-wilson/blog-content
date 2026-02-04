@@ -6,6 +6,7 @@ categories: [meta]
 tags: [knowledge-management, obsidian, workflow, centralization]
 draft: false
 summary: "Stop fragmenting your notes across locations. A single Obsidian vault with everything—seeds, drafts, posts—creates connections you'd never see otherwise."
+lang: en
 cover:
   image: "/covers/cover-2026-02-12-one-obsidian-vault-for-everything.png"
 ---

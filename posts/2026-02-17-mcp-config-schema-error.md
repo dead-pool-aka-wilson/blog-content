@@ -6,6 +6,7 @@ categories: [debugging]
 tags: [opencode, mcp, configuration]
 draft: false
 summary: "My MCP server config worked in Claude Desktop. It failed validation in OpenCode. Same protocol, different schemas."
+lang: en
 cover:
   image: "/covers/cover-2026-02-17-mcp-config-schema-error.png"
 ---

@@ -6,6 +6,7 @@ categories: [meta]
 tags: [ai-blog-series, debugging, bash, symlink, lessons-learned]
 draft: false
 summary: "블로그를 만들면서 겪은 세 가지 구체적인 실패와 그로부터 배운 교훈들을 공유합니다."
+lang: ko
 series: ["AI와 블로그 만들기"]
 cover:
   image: "/cover-series-2.png"

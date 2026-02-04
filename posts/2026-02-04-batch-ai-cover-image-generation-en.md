@@ -1,6 +1,7 @@
 ---
 title: "Automating Blog Visuals: Batch Generating 29 AI Cover Images in Minutes"
 date: 2026-02-04
+author: Raoul
 categories: [AI, Automation]
 tags: [ai, images, automation, workflow]
 draft: false

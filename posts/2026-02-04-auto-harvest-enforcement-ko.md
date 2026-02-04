@@ -1,6 +1,7 @@
 ---
 title: "통찰을 놓치지 않는 법: AI 세션 자동 수확(Auto-Harvesting)"
 date: 2026-02-04
+author: Raoul
 categories: [Knowledge Management, AI]
 tags: [automation, content-creation, knowledge-management, opencode]
 draft: false

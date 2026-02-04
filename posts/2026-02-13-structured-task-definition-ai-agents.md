@@ -6,6 +6,7 @@ categories: [technical]
 tags: [ai-planning, task-structure, delegation, prompt-engineering]
 draft: false
 summary: "Vague task descriptions produce vague results. A structured template ensures AI agents have everything needed for autonomous execution."
+lang: en
 cover:
   image: "/covers/cover-2026-02-13-structured-task-definition-ai-agents.png"
 ---

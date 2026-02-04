@@ -1,6 +1,7 @@
 ---
 title: "Git Worktree: 같은 저장소에서 여러 AI 에이전트 동시 실행하기"
 date: 2026-02-03
+author: Raoul
 categories: [workflow, git]
 tags: [git, worktree, ai-agents, parallel-work, multi-session]
 draft: false

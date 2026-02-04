@@ -1,6 +1,7 @@
 ---
 title: "사전 검증 패턴: 서버에서 다시는 잠기지 않는 법"
 date: 2026-02-03
+author: Raoul
 categories: [devops, security]
 tags: [firewall, ssh, safety, patterns, remote-management]
 draft: false

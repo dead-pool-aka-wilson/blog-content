@@ -1,6 +1,7 @@
 ---
 title: "macOS sysadminctl 함정: 홈 디렉토리가 생성되지 않는다"
 date: 2026-02-03
+author: Raoul
 categories: [macos, sysadmin]
 tags: [macos, service-account, sysadminctl, gotcha]
 draft: false

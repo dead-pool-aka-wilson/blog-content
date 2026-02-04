@@ -1,6 +1,7 @@
 ---
 title: "모델 ID는 정확히 일치해야 한다: Provider Lookup 함정"
 date: 2026-02-03
+author: Raoul
 categories: [debugging, configuration]
 tags: [opencode, llm, model-configuration, api]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "Your Blog Posts Are Leaking Your Username: Local Path Privacy"
 date: 2026-02-03
+author: Raoul
 categories: [security, content]
 tags: [privacy, security, blogging, content-review, devops]
 draft: false

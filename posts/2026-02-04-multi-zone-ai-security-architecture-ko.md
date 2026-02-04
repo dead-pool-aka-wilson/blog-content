@@ -1,6 +1,7 @@
 ---
 title: "심층 방어: AI 에이전트를 위한 3구역 보안 아키텍처"
 date: 2026-02-04
+author: Raoul
 categories: [Security, AI]
 tags: [security, architecture, ai-agents, defense-in-depth, moltbot]
 draft: false

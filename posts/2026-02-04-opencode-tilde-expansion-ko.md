@@ -1,6 +1,7 @@
 ---
 title: "물결표(~)의 함정: OpenCode 설정에 절대 경로가 필요한 이유"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [opencode, configuration, paths]
 draft: false

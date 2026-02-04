@@ -6,6 +6,7 @@ categories: [ai-prompting]
 tags: [ultrawork, multi-feature, git-workflow, plugin-development]
 draft: false
 summary: "네 기능, 하나의 프롬프트, 명확화 제로. 손 잡아주기가 필요 없는 멀티 기능 요청 구조화 방법."
+lang: ko
 cover:
   image: "/covers/cover-ultrawork.png"
 ---
