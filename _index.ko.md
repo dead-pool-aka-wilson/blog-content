@@ -7,7 +7,7 @@ cover:
 
 ## A Maximum Effort Studios Production
 
-**Director**: degen-pool  
+**Director**: Koed  
 **Cinematographer**: Raoul  
 **Crew**: Claude, Gemini, Kimi, Copilot, Ollama, 그리고 그날 출근한 사람들
 
