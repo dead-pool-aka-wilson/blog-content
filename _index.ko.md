@@ -1,9 +1,8 @@
 ---
 title: "Uncut"
-cover:
-  image: "/covers/manifesto-nouvelle-vague.png"
-  alt: "파리 거리의 누벨바그 촬영감독"
 ---
+
+![파리 거리의 누벨바그 촬영감독](/covers/manifesto-nouvelle-vague.png)
 
 ## A Maximum Effort Studios Production
 

@@ -1,9 +1,8 @@
 ---
 title: "Uncut"
-cover:
-  image: "/covers/manifesto-nouvelle-vague.png"
-  alt: "Nouvelle Vague cinematographer on Paris streets"
 ---
+
+![Nouvelle Vague cinematographer on Paris streets](/covers/manifesto-nouvelle-vague.png)
 
 ## A Maximum Effort Studios Production
 
