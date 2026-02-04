@@ -6,6 +6,8 @@ tags: [docker, sandbox, testing, ai-bots, safety]
 draft: false
 summary: "실제 데이터를 위험에 빠뜨리지 않고 Docker 샌드박스 설정을 테스트하는 단계적 접근법 - 이메일, 메시징, 노트에 접근하는 개인 AI 봇에 필수다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-docker-sandbox-testing.png"
 ---
 
 ## 위험: 실제 데이터, 실제 결과

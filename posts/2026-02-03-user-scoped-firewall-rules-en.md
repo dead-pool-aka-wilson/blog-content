@@ -6,6 +6,8 @@ tags: [firewall, macos, pf, ai-agents, service-isolation]
 draft: false
 summary: "How to use OS-level firewall rules scoped to specific users to restrict what your AI agent can access"
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-user-scoped-firewall-rules.png"
 ---
 
 ## The Problem: AI Agents Need Network Access, But Not Unlimited

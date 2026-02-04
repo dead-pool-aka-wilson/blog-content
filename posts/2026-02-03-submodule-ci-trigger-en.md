@@ -6,6 +6,8 @@ tags: [git-submodule, ci-cd, cloudflare, deployment]
 draft: false
 summary: "Push to content repo. Wait for deploy. Nothing happens. Submodule changes don't trigger parent repo webhooks - and your CI doesn't know anything changed."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-submodule-ci-trigger.png"
 ---
 
 ## The Problem

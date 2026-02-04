@@ -6,6 +6,8 @@ tags: [opencode, mcp, claude-desktop, schema, configuration]
 draft: false
 summary: "Claude Desktop에서 작동하는 MCP 설정이 OpenCode에서 실패한다. 같은 프로토콜, 다른 스키마. 미묘한 비호환성 이야기."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-opencode-mcp-config-schema.png"
 ---
 
 ## 문제 상황

@@ -6,6 +6,8 @@ tags: [migration, environment-variables, breaking-changes, project-management]
 draft: false
 summary: "프로젝트 이름 바꾸기는 간단해 보이지만, 옛날 이름을 참조하는 숨겨진 아티팩트들이 얼마나 많은지 발견하기 전까지만 그렇다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-project-rename-env-migration.png"
 ---
 
 ## 문제 상황

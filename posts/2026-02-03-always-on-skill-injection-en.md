@@ -6,6 +6,8 @@ tags: [opencode, skills, automation, configuration]
 draft: false
 summary: "How to configure skills to auto-load for specific AI agents, turning one-off invocations into persistent behaviors."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-always-on-skill-injection.png"
 ---
 
 ## The Problem: Manual Skill Invocation

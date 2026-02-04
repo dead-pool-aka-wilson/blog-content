@@ -6,6 +6,8 @@ tags: [privacy, security, blogging, content-review, devops]
 draft: false
 summary: "유용한 디버깅 블로그 포스트? /Users/yourname/이 들어있다 - 실제 유저네임, 홈 디렉토리 구조, 그리고 공유하려던 것보다 더 많은 정보."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-local-path-privacy-leak.png"
 ---
 
 ## 문제 상황

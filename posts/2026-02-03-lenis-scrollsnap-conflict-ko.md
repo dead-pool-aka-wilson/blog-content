@@ -6,6 +6,8 @@ tags: [lenis, scroll-snap, css, javascript, gotcha]
 draft: false
 summary: "흔한 프론트엔드 함정: Lenis 스무스 스크롤 라이브러리와 CSS scroll-snap은 호환되지 않는다. 왜 충돌하는지와 어떻게 선택하는지 설명한다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-lenis-scrollsnap-conflict.png"
 ---
 
 ## 설정

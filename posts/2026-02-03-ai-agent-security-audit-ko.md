@@ -6,6 +6,8 @@ tags: [security-audit, ai-agents, devops, checklist, automation]
 draft: false
 summary: "AI 에이전트 시스템을 위한 종합 보안 감사 체크리스트. 자격 증명 처리, 명령 실행, 파일 접근, 권한 상승 등 실제 프로덕션 에이전트 코드베이스 감사에서 도출한 실전 가이드다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-ai-agent-security-audit.png"
 ---
 
 ## AI 에이전트에 보안 감사가 필요한 이유

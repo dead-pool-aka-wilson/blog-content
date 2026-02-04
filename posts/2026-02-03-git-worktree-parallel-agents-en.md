@@ -6,6 +6,8 @@ tags: [git, worktree, ai-agents, parallel-work, multi-session]
 draft: false
 summary: "How to use git worktrees to enable multiple AI coding agents working on different features simultaneously - each with their own branch and working directory."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-git-worktree-parallel-agents.png"
 ---
 
 ## The Problem: One Repo, Multiple Agents

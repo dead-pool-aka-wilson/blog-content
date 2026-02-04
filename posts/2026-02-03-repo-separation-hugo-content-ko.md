@@ -6,6 +6,8 @@ tags: [hugo, git, obsidian, submodules, repo-management]
 draft: false
 summary: "Hugo 블로그를 두 개의 저장소로 분리하는 이유와 방법 - 인프라와 콘텐츠를 분리하여 Obsidian과 더 깔끔한 워크플로우를 위해."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-repo-separation-hugo-content.png"
 ---
 
 ## 모노레포 문제

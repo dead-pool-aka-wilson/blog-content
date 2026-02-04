@@ -6,6 +6,8 @@ tags: [playwright, browser-automation, google, modal, testing]
 draft: false
 summary: "버튼은 보인다. 셀렉터도 찾았다. 하지만 클릭이 실패한다. 범인: 예상치 못한 보이지 않는 오버레이."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-playwright-invisible-modal.png"
 ---
 
 ## 문제 상황

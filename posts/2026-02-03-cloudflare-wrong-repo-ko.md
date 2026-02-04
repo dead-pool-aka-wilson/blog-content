@@ -6,6 +6,8 @@ tags: [cloudflare, deployment, ci-cd, git, repository]
 draft: false
 summary: "수정사항 푸시 완료, 빌드 실패. 같은 에러, 반복 또 반복. 범인: Cloudflare가 완전히 다른 저장소를 빌드하고 있었다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-cloudflare-wrong-repo.png"
 ---
 
 ## 문제 상황

@@ -6,6 +6,8 @@ tags: [llm, routing, ollama, cost-optimization, apple-silicon]
 draft: false
 summary: "작은 로컬 LLM으로 요청을 올바른 모델 풀에 지능적으로 라우팅하여 낭비되는 API 호출 제거"
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-local-first-model-routing.png"
 ---
 
 ## 문제: 순차적 폴백은 돈을 낭비한다

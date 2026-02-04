@@ -6,6 +6,8 @@ tags: [migration, environment-variables, breaking-changes, project-management]
 draft: false
 summary: "Renaming a project sounds trivial until you discover how many hidden artifacts still reference the old name. A case study in env var migration pain."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-project-rename-env-migration.png"
 ---
 
 ## The Problem

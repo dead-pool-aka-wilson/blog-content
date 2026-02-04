@@ -6,6 +6,8 @@ tags: [opencode, skills, automation, configuration]
 draft: false
 summary: "특정 AI 에이전트에 대해 스킬이 자동 로드되도록 설정하여 일회성 호출을 지속적 행동으로 바꾸는 방법."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-always-on-skill-injection.png"
 ---
 
 ## 문제: 수동 스킬 호출

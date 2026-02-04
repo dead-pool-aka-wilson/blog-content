@@ -6,6 +6,8 @@ tags: [task-planning, delegation, prompt-engineering, ai-orchestration]
 draft: false
 summary: "AI 에이전트가 지속적인 확인 없이 자율적으로 작업할 수 있게 하는 명확하고 자체 검증 가능한 태스크 정의 템플릿."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-plan-agent-task-structure.png"
 ---
 
 ## 문제: 모호한 태스크 정의

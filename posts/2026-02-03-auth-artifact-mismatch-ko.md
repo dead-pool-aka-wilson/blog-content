@@ -6,6 +6,8 @@ tags: [playwright, authentication, shell-scripts, typescript, cross-language]
 draft: false
 summary: "Shell 래퍼는 JSON 인증 파일을 확인했다. TypeScript 구현은 Chrome 프로필 디렉토리를 저장했다. 이 불일치가 유령 같은 '인증 필요' 에러를 일으켰다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-auth-artifact-mismatch.png"
 ---
 
 ## 문제 상황

@@ -6,6 +6,8 @@ tags: [opencode, llm, model-configuration, api]
 draft: false
 summary: "A model ID that's 'close enough' isn't close enough. When provider lookups fail silently until they don't."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-model-id-exact-match.png"
 ---
 
 ## The Problem

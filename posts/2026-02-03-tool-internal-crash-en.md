@@ -6,6 +6,8 @@ tags: [debugging, race-condition, cli-tools, error-handling]
 draft: false
 summary: "TypeError in code you didn't write. Stack trace points to tool internals. The bug isn't yours, but you still need to fix your workflow."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-tool-internal-crash.png"
 ---
 
 ## The Problem

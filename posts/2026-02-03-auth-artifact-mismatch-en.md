@@ -6,6 +6,8 @@ tags: [playwright, authentication, shell-scripts, typescript, cross-language]
 draft: false
 summary: "A shell wrapper checked for a JSON auth file. The TypeScript implementation saved a Chrome profile directory. The mismatch caused phantom 'auth required' errors."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-auth-artifact-mismatch.png"
 ---
 
 ## The Problem

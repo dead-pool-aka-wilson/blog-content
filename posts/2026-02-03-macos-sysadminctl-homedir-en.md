@@ -6,6 +6,8 @@ tags: [macos, service-account, sysadminctl, gotcha]
 draft: false
 summary: "Create a macOS user with sysadminctl. Assume home directory exists. It doesn't. Unlike Linux useradd -m, macOS requires you to create it yourself."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-macos-sysadminctl-homedir.png"
 ---
 
 ## The Problem

@@ -6,6 +6,8 @@ tags: [ai-agents, vm, orbstack, isolation, security-architecture]
 draft: false
 summary: "프롬프트 인젝션과 자격 증명 유출을 방지하기 위한 경량 VM 기반 AI 에이전트 격리 방법"
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-three-zone-vm-security.png"
 ---
 
 ## 문제: 시스템 접근 권한을 가진 AI 에이전트

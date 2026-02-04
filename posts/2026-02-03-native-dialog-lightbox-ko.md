@@ -6,6 +6,8 @@ tags: [dialog, lightbox, html5, accessibility, no-javascript]
 draft: false
 summary: "네이티브 HTML dialog 요소를 사용하여 완전한 기능의 이미지 라이트박스를 만드는 방법 - 의존성 제로, JavaScript 10줄, 더 나은 접근성."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-native-dialog-lightbox.png"
 ---
 
 ## 옛날 방식: 라이브러리 부풀리기

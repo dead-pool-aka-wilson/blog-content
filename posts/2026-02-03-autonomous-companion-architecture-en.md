@@ -6,6 +6,8 @@ tags: [ai-agents, token-optimization, autonomous-systems, cost-optimization]
 draft: false
 summary: "A five-layer architecture for building AI assistants that are autonomous, cost-efficient, and secure"
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-autonomous-companion-architecture.png"
 ---
 
 ## The Vision: An AI That Just Handles Things

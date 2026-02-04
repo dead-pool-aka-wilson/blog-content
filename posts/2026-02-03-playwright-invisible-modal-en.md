@@ -6,6 +6,8 @@ tags: [playwright, browser-automation, google, modal, testing]
 draft: false
 summary: "The button is visible. The selector finds it. But clicks fail silently. The culprit: an invisible overlay you never saw coming."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-playwright-invisible-modal.png"
 ---
 
 ## The Problem

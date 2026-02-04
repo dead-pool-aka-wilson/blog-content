@@ -6,6 +6,8 @@ tags: [cloudflare, deployment, ci-cd, git, repository]
 draft: false
 summary: "Fixes pushed, build fails. Same error, over and over. The culprit: Cloudflare was building a completely different repository."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-cloudflare-wrong-repo.png"
 ---
 
 ## The Problem

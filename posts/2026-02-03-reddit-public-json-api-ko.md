@@ -6,6 +6,8 @@ tags: [reddit, api, scraping, oauth, public-api]
 draft: false
 summary: "Reddit의 Responsible Builder Policy가 OAuth 앱 생성을 차단한다. 하지만 public JSON API는 OAuth가 전혀 필요 없다 - 그리고 그게 필요한 전부일 수 있다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-reddit-public-json-api.png"
 ---
 
 ## 문제 상황

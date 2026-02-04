@@ -6,6 +6,8 @@ tags: [memes, content-creation, ai-images, visual-content]
 draft: false
 summary: "Why sourcing real memes from Twitter and TikTok beats AI-generated images for blog posts - the format IS the communication."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-meme-sourcing-pipeline.png"
 ---
 
 ## The Temptation of AI Image Generation

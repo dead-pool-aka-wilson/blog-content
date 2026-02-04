@@ -6,6 +6,8 @@ tags: [docker, sandbox, testing, ai-bots, safety]
 draft: false
 summary: "A phased approach to testing Docker sandbox configurations without risking your real data - essential for personal AI bots with access to email, messaging, and notes."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-docker-sandbox-testing.png"
 ---
 
 ## The Risk: Real Data, Real Consequences

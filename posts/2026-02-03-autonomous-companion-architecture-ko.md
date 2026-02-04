@@ -6,6 +6,8 @@ tags: [ai-agents, token-optimization, autonomous-systems, cost-optimization]
 draft: false
 summary: "자율적이고 비용 효율적이며 안전한 AI 어시스턴트를 위한 5계층 아키텍처"
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-autonomous-companion-architecture.png"
 ---
 
 ## 비전: 알아서 처리하는 AI

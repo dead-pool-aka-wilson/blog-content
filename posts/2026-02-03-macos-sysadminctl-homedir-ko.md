@@ -6,6 +6,8 @@ tags: [macos, service-account, sysadminctl, gotcha]
 draft: false
 summary: "sysadminctl로 macOS 사용자 생성. 홈 디렉토리가 있다고 가정. 없다. Linux useradd -m과 달리, macOS는 직접 만들어야 한다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-macos-sysadminctl-homedir.png"
 ---
 
 ## 문제 상황

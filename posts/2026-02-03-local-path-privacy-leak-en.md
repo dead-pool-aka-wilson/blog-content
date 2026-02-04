@@ -6,6 +6,8 @@ tags: [privacy, security, blogging, content-review, devops]
 draft: false
 summary: "That helpful debugging blog post? It contains /Users/yourname/ - your real username, home directory structure, and possibly more than you intended to share."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-local-path-privacy-leak.png"
 ---
 
 ## The Problem

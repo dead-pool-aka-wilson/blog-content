@@ -6,6 +6,8 @@ tags: [hugo, git, obsidian, submodules, repo-management]
 draft: false
 summary: "Why and how to split your Hugo blog into two repositories - infrastructure separate from content - for cleaner workflows with Obsidian."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-repo-separation-hugo-content.png"
 ---
 
 ## The Monorepo Problem

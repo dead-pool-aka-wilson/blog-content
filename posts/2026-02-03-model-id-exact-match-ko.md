@@ -6,6 +6,8 @@ tags: [opencode, llm, model-configuration, api]
 draft: false
 summary: "'비슷한' 모델 ID는 충분하지 않다. Provider 조회가 조용히 실패하다가 터지는 순간."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-model-id-exact-match.png"
 ---
 
 ## 문제 상황

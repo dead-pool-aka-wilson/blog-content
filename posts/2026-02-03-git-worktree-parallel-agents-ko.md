@@ -6,6 +6,8 @@ tags: [git, worktree, ai-agents, parallel-work, multi-session]
 draft: false
 summary: "git worktree를 사용하여 여러 AI 코딩 에이전트가 다른 기능을 동시에 작업할 수 있게 하는 방법 - 각자 고유한 브랜치와 작업 디렉토리를 가진다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-git-worktree-parallel-agents.png"
 ---
 
 ## 문제: 하나의 저장소, 여러 에이전트

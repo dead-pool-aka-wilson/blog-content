@@ -6,6 +6,8 @@ tags: [lenis, scroll-snap, css, javascript, gotcha]
 draft: false
 summary: "A common frontend gotcha: Lenis smooth scroll library and CSS scroll-snap are incompatible. Here's why they fight and how to choose between them."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-lenis-scrollsnap-conflict.png"
 ---
 
 ## The Setup

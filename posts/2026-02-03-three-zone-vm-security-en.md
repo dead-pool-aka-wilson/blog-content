@@ -6,6 +6,8 @@ tags: [ai-agents, vm, orbstack, isolation, security-architecture]
 draft: false
 summary: "How to isolate autonomous AI agents using lightweight VMs to prevent prompt injection and credential exfiltration"
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-three-zone-vm-security.png"
 ---
 
 ## The Problem: AI Agents with System Access

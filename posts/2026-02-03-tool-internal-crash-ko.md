@@ -6,6 +6,8 @@ tags: [debugging, race-condition, cli-tools, error-handling]
 draft: false
 summary: "작성하지 않은 코드에서 TypeError. 스택 트레이스는 도구 내부를 가리킨다. 버그는 내 것이 아니지만, 워크플로우는 고쳐야 한다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-tool-internal-crash.png"
 ---
 
 ## 문제 상황

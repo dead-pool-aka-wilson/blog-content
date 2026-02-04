@@ -6,6 +6,8 @@ tags: [security-audit, ai-agents, devops, checklist, automation]
 draft: false
 summary: "A comprehensive security audit checklist for AI agent systems - covering credential handling, command execution, file access, privilege escalation, and more. Derived from real audits of production agent codebases."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-ai-agent-security-audit.png"
 ---
 
 ## Why AI Agents Need Security Audits

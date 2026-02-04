@@ -6,6 +6,8 @@ tags: [tmux, ssh, ai-agents, remote-work, recovery]
 draft: false
 summary: "How to run AI coding agents in tmux sessions so work continues even if your SSH connection drops - plus recovery commands for when things go wrong."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-tmux-agent-recovery.png"
 ---
 
 ## The Problem: SSH Dies, Work Dies

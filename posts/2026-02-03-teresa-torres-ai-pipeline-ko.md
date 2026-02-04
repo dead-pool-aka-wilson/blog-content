@@ -6,6 +6,8 @@ tags: [ai-assistant, morning-routine, obsidian, automation, personal-productivit
 draft: false
 summary: "캘린더, 이메일, 뉴스레터를 집계하여 일일 브리핑을 생성하는 개인 AI 파이프라인 구축법 - Claude로 자신만의 /today 명령어를 만든 제품 코치 Teresa Torres에서 영감을 받았다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-teresa-torres-ai-pipeline.png"
 ---
 
 ## Teresa Torres의 영감

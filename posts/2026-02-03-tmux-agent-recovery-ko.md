@@ -6,6 +6,8 @@ tags: [tmux, ssh, ai-agents, remote-work, recovery]
 draft: false
 summary: "SSH 연결이 끊겨도 작업이 계속되도록 tmux 세션에서 AI 코딩 에이전트를 실행하는 방법 - 문제 발생 시 복구 명령어도 포함."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-tmux-agent-recovery.png"
 ---
 
 ## 문제: SSH가 죽으면 작업도 죽는다

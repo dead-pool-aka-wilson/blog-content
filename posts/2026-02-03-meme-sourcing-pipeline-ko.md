@@ -6,6 +6,8 @@ tags: [memes, content-creation, ai-images, visual-content]
 draft: false
 summary: "블로그 포스트에서 AI 생성 이미지보다 트위터와 틱톡의 실제 밈을 소싱하는 것이 나은 이유 - 포맷 자체가 커뮤니케이션이다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-meme-sourcing-pipeline.png"
 ---
 
 ## AI 이미지 생성의 유혹

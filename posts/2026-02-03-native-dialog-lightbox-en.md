@@ -6,6 +6,8 @@ tags: [dialog, lightbox, html5, accessibility, no-javascript]
 draft: false
 summary: "How to build a fully-featured image lightbox using native HTML dialog element - zero dependencies, 10 lines of JavaScript, better accessibility."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-native-dialog-lightbox.png"
 ---
 
 ## The Old Way: Library Bloat

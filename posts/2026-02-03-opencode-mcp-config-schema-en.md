@@ -6,6 +6,8 @@ tags: [opencode, mcp, claude-desktop, schema, configuration]
 draft: false
 summary: "MCP config that works in Claude Desktop fails in OpenCode. Same protocol, different schema. A tale of subtle incompatibilities."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-opencode-mcp-config-schema.png"
 ---
 
 ## The Problem

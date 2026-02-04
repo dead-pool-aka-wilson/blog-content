@@ -6,6 +6,8 @@ tags: [firewall, ssh, safety, patterns, remote-management]
 draft: false
 summary: "A pattern for safely executing dangerous operations like firewall rules on remote servers - verify everything before the point of no return."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-preflight-verification-pattern.png"
 ---
 
 ## The Nightmare Scenario

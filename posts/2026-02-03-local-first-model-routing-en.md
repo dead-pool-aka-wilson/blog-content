@@ -6,6 +6,8 @@ tags: [llm, routing, ollama, cost-optimization, apple-silicon]
 draft: false
 summary: "Use a tiny local LLM to intelligently route requests to the right model pool, eliminating wasted API calls"
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-local-first-model-routing.png"
 ---
 
 ## The Problem: Sequential Fallback Wastes Money

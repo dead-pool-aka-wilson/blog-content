@@ -6,6 +6,8 @@ tags: [task-planning, delegation, prompt-engineering, ai-orchestration]
 draft: false
 summary: "A template for creating unambiguous, self-verifiable task definitions that enable AI agents to work autonomously without constant clarification."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-plan-agent-task-structure.png"
 ---
 
 ## The Problem: Vague Task Definitions

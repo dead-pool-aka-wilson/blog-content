@@ -6,6 +6,8 @@ tags: [korean, writing-style, localization, tech-blogs]
 draft: false
 summary: "한국어 높임법 설명과 기술 블로그가 해요체보다 직접적인 해라체로 더 잘 작동하는 이유."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-korean-haerache-style.png"
 ---
 
 ## 한국어 높임법: 간단한 설명

@@ -6,6 +6,8 @@ tags: [firewall, macos, pf, ai-agents, service-isolation]
 draft: false
 summary: "특정 사용자에게 범위가 지정된 OS 수준 방화벽 규칙으로 AI 에이전트가 접근할 수 있는 것을 제한하는 방법"
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-user-scoped-firewall-rules.png"
 ---
 
 ## 문제: AI 에이전트는 네트워크 접근이 필요하지만 무제한은 아니다

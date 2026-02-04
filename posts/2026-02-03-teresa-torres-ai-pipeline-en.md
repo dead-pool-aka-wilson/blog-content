@@ -6,6 +6,8 @@ tags: [ai-assistant, morning-routine, obsidian, automation, personal-productivit
 draft: false
 summary: "How to build a personal AI pipeline that aggregates your calendar, emails, and newsletters into a daily briefing - inspired by product coach Teresa Torres who built her own /today command with Claude."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-teresa-torres-ai-pipeline.png"
 ---
 
 ## The Teresa Torres Inspiration

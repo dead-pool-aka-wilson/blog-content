@@ -6,6 +6,8 @@ tags: [orchestration, parallel-execution, task-planning, dependency-management]
 draft: false
 summary: "How to organize multi-task implementations using dependency-aware waves for maximum parallelism - and why theoretical speedups rarely match reality."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-parallel-wave-execution.png"
 ---
 
 ## The Promise of Parallel Execution

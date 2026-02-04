@@ -6,6 +6,8 @@ tags: [firewall, ssh, safety, patterns, remote-management]
 draft: false
 summary: "원격 서버에서 방화벽 규칙 같은 위험한 작업을 안전하게 실행하는 패턴 - 돌이킬 수 없는 지점 전에 모든 것을 검증한다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-preflight-verification-pattern.png"
 ---
 
 ## 악몽 시나리오

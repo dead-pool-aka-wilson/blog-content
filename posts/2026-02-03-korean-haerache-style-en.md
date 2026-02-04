@@ -6,6 +6,8 @@ tags: [korean, writing-style, localization, tech-blogs]
 draft: false
 summary: "An explanation of Korean speech levels and why technical blogs work better with the direct haerache style instead of polite haeyo-che."
 lang: en
+cover:
+  image: "/covers/cover-2026-02-03-korean-haerache-style.png"
 ---
 
 ## Korean Speech Levels: A Quick Primer

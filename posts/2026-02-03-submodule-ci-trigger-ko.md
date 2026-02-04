@@ -6,6 +6,8 @@ tags: [git-submodule, ci-cd, cloudflare, deployment]
 draft: false
 summary: "콘텐츠 레포에 푸시. 배포 대기. 아무 일도 안 일어남. 서브모듈 변경은 부모 레포 웹훅을 트리거하지 않는다 - CI는 변경된 게 있는지 모른다."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-submodule-ci-trigger.png"
 ---
 
 ## 문제 상황

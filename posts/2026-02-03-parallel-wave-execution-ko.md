@@ -6,6 +6,8 @@ tags: [orchestration, parallel-execution, task-planning, dependency-management]
 draft: false
 summary: "의존성을 고려한 웨이브로 멀티 태스크 구현을 조직하여 최대 병렬성을 달성하는 방법 - 그리고 이론적 속도 향상이 현실과 맞지 않는 이유."
 lang: ko
+cover:
+  image: "/covers/cover-2026-02-03-parallel-wave-execution.png"
 ---
 
 ## 병렬 실행의 약속
