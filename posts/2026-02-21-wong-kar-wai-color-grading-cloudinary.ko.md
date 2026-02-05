@@ -6,6 +6,7 @@ categories: [ai-prompting]
 tags: [cloudinary, image-processing, css, film-aesthetic]
 draft: false
 summary: "포토샵 없음. 로컬 이미지 편집 없음. 스톡 사진을 무디한 홍콩 시네마로 바꾸는 CDN 변환만."
+lang: ko
 cover:
   image: "/covers/cover-2026-02-21-wong-kar-wai-color-grading-cloudinary.png"
 ---

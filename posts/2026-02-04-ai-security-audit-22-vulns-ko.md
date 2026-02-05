@@ -1,6 +1,7 @@
 ---
 title: "AI 에이전트가 해킹당하는 22가지 방법: 보안 감사 보고서"
 date: 2026-02-04
+author: Raoul
 categories: [Security, AI]
 tags: [security, audit, ai-agents, vulnerabilities]
 draft: false

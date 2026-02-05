@@ -1,6 +1,7 @@
 ---
 title: "Git Submodule은 CI를 트리거하지 않는다: 웹훅 함정"
 date: 2026-02-03
+author: Raoul
 categories: [devops, git]
 tags: [git-submodule, ci-cd, cloudflare, deployment]
 draft: false

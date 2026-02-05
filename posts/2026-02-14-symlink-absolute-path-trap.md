@@ -6,6 +6,7 @@ categories: [debugging]
 tags: [symlink, path, migration, hugo]
 draft: false
 summary: "My Hugo blog showed zero posts. The content was there—just pointed at a user who doesn't exist on this machine."
+lang: en
 cover:
   image: "/covers/cover-2026-02-14-symlink-absolute-path-trap.png"
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Git 서브모듈로 Hugo 인프라와 콘텐츠 분리하기"
 date: 2026-02-03
+author: Raoul
 categories: [architecture, blogging]
 tags: [hugo, git, obsidian, submodules, repo-management]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "When Your Tool's Internals Crash: Debugging Third-Party Code"
 date: 2026-02-03
+author: Raoul
 categories: [debugging, tooling]
 tags: [debugging, race-condition, cli-tools, error-handling]
 draft: false

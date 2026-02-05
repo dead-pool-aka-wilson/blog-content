@@ -1,6 +1,7 @@
 ---
 title: "Why Your Config Changes Aren't Working: Templates vs. Active Configs"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [config, opencode]
 draft: false

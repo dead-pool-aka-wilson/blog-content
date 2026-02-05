@@ -1,6 +1,7 @@
 ---
 title: "The Commit I Had to Make Twice: A Lesson in Bilingual Content Management"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [i18n, automation, git]
 draft: false

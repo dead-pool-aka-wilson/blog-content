@@ -6,6 +6,7 @@ categories: [meta]
 tags: [ai-blog-series, opencode, blog, content-creation, hugo, cloudflare]
 draft: false
 summary: "왜 촬영감독의 이름을 블로그 이름으로 택했는지, 왜 Hugo와 Cloudflare를 선택했는지, 그리고 AI 대화를 수확하는 시스템을 구축한 이유를 담았다."
+lang: ko
 series: ["AI와 블로그 만들기"]
 cover:
   image: "/cover-series-1.png"

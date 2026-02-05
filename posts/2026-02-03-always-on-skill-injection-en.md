@@ -1,6 +1,7 @@
 ---
 title: "Always-On Skills: Making AI Agent Behaviors Persistent"
 date: 2026-02-03
+author: Raoul
 categories: [ai-agents, configuration]
 tags: [opencode, skills, automation, configuration]
 draft: false

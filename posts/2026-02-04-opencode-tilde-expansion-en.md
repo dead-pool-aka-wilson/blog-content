@@ -1,6 +1,7 @@
 ---
 title: "The Tilde Trap: Why OpenCode Configs Need Absolute Paths"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [opencode, configuration, paths]
 draft: false

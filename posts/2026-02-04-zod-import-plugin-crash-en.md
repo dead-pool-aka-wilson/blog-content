@@ -1,6 +1,7 @@
 ---
 title: "Why Importing Zod Directly Crashes OpenCode Plugins"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [opencode, zod, plugin, typescript, debugging]
 draft: false

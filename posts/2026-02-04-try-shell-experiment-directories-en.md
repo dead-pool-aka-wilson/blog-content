@@ -1,6 +1,7 @@
 ---
 title: "The 'try' Command: Frictionless Experimentation in Your Shell"
 date: 2026-02-04
+author: Raoul
 categories: [Engineering, Workflow]
 tags: [shell, workflow, productivity, dev-setup]
 draft: false

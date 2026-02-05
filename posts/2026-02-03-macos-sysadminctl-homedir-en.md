@@ -1,6 +1,7 @@
 ---
 title: "macOS sysadminctl Gotcha: Home Directory Not Created"
 date: 2026-02-03
+author: Raoul
 categories: [macos, sysadmin]
 tags: [macos, service-account, sysadminctl, gotcha]
 draft: false

@@ -6,6 +6,7 @@ categories: [meta]
 tags: [ai-blog-series, meta-content, ai-collaboration, workflow]
 draft: false
 summary: "작업 자체가 콘텐츠가 되는 메타 재귀적 발견, 그리고 AI와 협업하는 새로운 방식"
+lang: ko
 series: ["AI와 블로그 만들기"]
 cover:
   image: "/cover-series-3.png"

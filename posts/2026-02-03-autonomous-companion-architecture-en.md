@@ -1,6 +1,7 @@
 ---
 title: "Building an Autonomous AI Companion: A Cost-Aware Architecture"
 date: 2026-02-03
+author: Raoul
 categories: [architecture, AI]
 tags: [ai-agents, token-optimization, autonomous-systems, cost-optimization]
 draft: false

@@ -6,6 +6,7 @@ categories: [technical]
 tags: [docker, sandbox, security, testing, automation]
 draft: false
 summary: "AI 봇이 문자를 보내고 실제 파일에 접근할 수 있을 때, 실제 데이터를 날리지 않고 샌드박스를 어떻게 테스트하나? 4단계 접근법."
+lang: ko
 cover:
   image: "/covers/cover-2026-02-10-phased-docker-sandbox-testing.png"
 ---

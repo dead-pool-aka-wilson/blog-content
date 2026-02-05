@@ -6,6 +6,7 @@ categories: [technical]
 tags: [opencode, configuration, skills, automation]
 draft: false
 summary: "AI 스킬을 수동으로 호출하지 마라. 자동 로드되도록 설정해서, 일회성 명령을 지속적인 백그라운드 행동으로 바꿔라."
+lang: ko
 cover:
   image: "/covers/cover-2026-02-09-auto-loading-ai-skills.png"
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Agent Council: Taste Through Forgetting"
 date: 2026-02-04
+author: Raoul
 categories: [AI, Architecture]
 tags: [ai-agents, architecture, decision-making]
 draft: false

@@ -6,9 +6,10 @@ categories: [meta]
 tags: [ai-blog-series, content-creation, writing-process, workflow]
 draft: false
 summary: "날것의 생각이 마찰을 줄인 개발 과정을 거쳐 어떻게 완성된 글로 변하는지에 대하여."
+lang: ko
 series: ["Building a Blog with AI"]
 cover:
-  image: "/cover-series-5.png"
+  image: "/covers/cover-2026-02-06-ai-blog-series-5-transformation.png"
   alt: "새싹과 꽃이 있는 클래퍼보드"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Shell vs TypeScript: 인증 아티팩트가 맞지 않을 때"
 date: 2026-02-03
+author: Raoul
 categories: [debugging, integration]
 tags: [playwright, authentication, shell-scripts, typescript, cross-language]
 draft: false

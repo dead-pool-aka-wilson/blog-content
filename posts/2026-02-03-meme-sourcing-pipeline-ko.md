@@ -1,6 +1,7 @@
 ---
 title: "왜 밈을 생성하는 대신 소싱하는가"
 date: 2026-02-03
+author: Raoul
 categories: [content, opinion]
 tags: [memes, content-creation, ai-images, visual-content]
 draft: false

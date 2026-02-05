@@ -1,6 +1,7 @@
 ---
 title: "Speed Up Your Shell Startup: The Case for Completion Caching"
 date: 2026-02-04
+author: Raoul
 categories: [Engineering, Performance]
 tags: [shell, performance, cli, productivity]
 draft: false

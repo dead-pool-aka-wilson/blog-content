@@ -6,6 +6,7 @@ categories: [debugging]
 tags: [opencode, oh-my-opencode, configuration]
 draft: false
 summary: "OpenCode가 'ProviderModelNotFoundError'로 실패했다. 모델 ID는 존재했다—내 설정이 적은 것과 다르게만."
+lang: ko
 cover:
   image: "/covers/cover-2026-02-18-model-id-mismatch.png"
 ---

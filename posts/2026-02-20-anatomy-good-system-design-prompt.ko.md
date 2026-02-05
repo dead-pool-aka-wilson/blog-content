@@ -6,6 +6,7 @@ categories: [ai-prompting]
 tags: [system-design, content-workflow, meta]
 draft: false
 summary: "한 문장이 전체 콘텐츠 캡처 시스템을 시작했다. 모호하게 들리는 프롬프트가 놀랍도록 효과적이었던 이유 분석."
+lang: ko
 cover:
   image: "/covers/cover-2026-02-20-anatomy-good-system-design-prompt.png"
 ---

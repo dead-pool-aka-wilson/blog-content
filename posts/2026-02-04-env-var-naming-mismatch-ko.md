@@ -1,6 +1,7 @@
 ---
 title: "모든 것을 망가뜨린 환경 변수: 네이밍 마이그레이션의 교훈"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [configuration, environment-variables]
 draft: false

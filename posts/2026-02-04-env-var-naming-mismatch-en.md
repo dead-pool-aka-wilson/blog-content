@@ -1,6 +1,7 @@
 ---
 title: "The Environment Variable That Broke Everything: A Naming Migration Story"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [configuration, environment-variables]
 draft: false

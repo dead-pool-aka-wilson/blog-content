@@ -6,6 +6,7 @@ categories: [meta]
 tags: [ai-blog-series, meta-content, ai-collaboration, workflow]
 draft: false
 summary: "Why the process of building can become the content itself, and a new paradigm for AI collaboration."
+lang: en
 series: ["Building a Blog with AI"]
 cover:
   image: "/cover-series-3.png"

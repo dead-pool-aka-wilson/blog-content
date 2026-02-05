@@ -6,6 +6,7 @@ categories: [technical]
 tags: [ai-planning, task-structure, delegation, prompt-engineering]
 draft: false
 summary: "모호한 작업 설명은 모호한 결과를 낳는다. 구조화된 템플릿이 AI 에이전트가 자율 실행에 필요한 모든 것을 갖추게 한다."
+lang: ko
 cover:
   image: "/covers/cover-2026-02-13-structured-task-definition-ai-agents.png"
 ---

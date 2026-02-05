@@ -6,6 +6,7 @@ categories: [meta]
 tags: [ai-blog-series, opencode, blog, content-creation, hugo, cloudflare]
 draft: false
 summary: "Why I named this blog after a cinematographer, chose Hugo and Cloudflare, and built a system to harvest AI conversations into posts."
+lang: en
 series: ["Building a Blog with AI"]
 cover:
   image: "/cover-series-1.png"

@@ -1,6 +1,7 @@
 ---
 title: "OS 수준에서 AI 에이전트 샌드박싱: 사용자 범위 방화벽 규칙"
 date: 2026-02-03
+author: Raoul
 categories: [security, infrastructure]
 tags: [firewall, macos, pf, ai-agents, service-isolation]
 draft: false

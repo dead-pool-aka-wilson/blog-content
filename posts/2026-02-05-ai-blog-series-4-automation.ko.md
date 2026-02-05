@@ -6,9 +6,10 @@ categories: [meta]
 tags: [ai-blog-series, opencode, automation, skills, mcp, tooling]
 draft: false
 summary: "작업의 흐름을 방해하지 않으면서도, AI가 곁에서 아이디어를 자동으로 기록하게 만드는 기술적인 설정에 대해 공유합니다."
+lang: ko
 series: ["Building a Blog with AI"]
 cover:
-  image: "/cover-series-4.png"
+  image: "/covers/cover-2026-02-05-ai-blog-series-4-automation.png"
   alt: "톱니바퀴 아이콘이 있는 클래퍼보드"
 ---
 

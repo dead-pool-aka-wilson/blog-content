@@ -1,6 +1,7 @@
 ---
 title: "AI와 함께하는 Shift-Left: 훅(Hook)을 이용한 자동 코드 리뷰"
 date: 2026-02-04
+author: Raoul
 categories: [DevOps, AI]
 tags: [code-review, automation, hooks, opencode]
 draft: false

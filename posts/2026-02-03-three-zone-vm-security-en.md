@@ -1,6 +1,7 @@
 ---
 title: "Defense in Depth: A Three-Zone VM Architecture for Autonomous AI Agents"
 date: 2026-02-03
+author: Raoul
 categories: [security, architecture]
 tags: [ai-agents, vm, orbstack, isolation, security-architecture]
 draft: false

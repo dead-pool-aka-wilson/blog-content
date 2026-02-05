@@ -1,6 +1,7 @@
 ---
 title: "Why Lenis Broke My Scroll-Snap (And How I Fixed It)"
 date: 2026-02-03
+author: Raoul
 categories: [frontend, debugging]
 tags: [lenis, scroll-snap, css, javascript, gotcha]
 draft: false

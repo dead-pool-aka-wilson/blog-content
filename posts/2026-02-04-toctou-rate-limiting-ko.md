@@ -1,6 +1,7 @@
 ---
 title: "Rate Limiting의 TOCTOU 레이스 컨디션: 보안 심층 분석"
 date: 2026-02-04
+author: Raoul
 categories: [security, debugging]
 tags: [toctou, race-condition, rate-limiting, concurrency, security]
 draft: false

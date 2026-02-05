@@ -1,6 +1,7 @@
 ---
 title: "Bash 3.2: macOS's Secret Compatibility Trap"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [bash, macos, compatibility]
 draft: false

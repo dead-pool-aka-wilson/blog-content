@@ -1,6 +1,7 @@
 ---
 title: "나만의 /today 명령어 만들기: Teresa Torres식 개인 AI 파이프라인"
 date: 2026-02-03
+author: Raoul
 categories: [productivity, automation]
 tags: [ai-assistant, morning-routine, obsidian, automation, personal-productivity]
 draft: false

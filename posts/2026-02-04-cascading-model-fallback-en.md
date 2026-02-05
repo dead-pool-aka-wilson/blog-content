@@ -1,6 +1,7 @@
 ---
 title: "The 90% Free AI Strategy: Cascading Model Fallback"
 date: 2026-02-04
+author: Raoul
 categories: [AI, Cost-Optimization]
 tags: [ai, model-routing, fallback, cost-optimization, moltbot]
 draft: false

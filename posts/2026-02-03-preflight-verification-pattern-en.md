@@ -1,6 +1,7 @@
 ---
 title: "Preflight Verification: Never Get Locked Out of Your Server Again"
 date: 2026-02-03
+author: Raoul
 categories: [devops, security]
 tags: [firewall, ssh, safety, patterns, remote-management]
 draft: false

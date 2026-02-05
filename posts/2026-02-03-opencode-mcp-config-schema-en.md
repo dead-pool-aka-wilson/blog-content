@@ -1,6 +1,7 @@
 ---
 title: "OpenCode vs Claude Desktop: The MCP Config Schema Trap"
 date: 2026-02-03
+author: Raoul
 categories: [debugging, configuration]
 tags: [opencode, mcp, claude-desktop, schema, configuration]
 draft: false

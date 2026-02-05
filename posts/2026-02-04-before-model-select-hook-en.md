@@ -1,6 +1,7 @@
 ---
 title: "Dynamic Model Routing: The Power of the before_model_select Hook"
 date: 2026-02-04
+author: Raoul
 categories: [AI, Architecture]
 tags: [plugin-architecture, hooks, model-routing, opencode]
 draft: false

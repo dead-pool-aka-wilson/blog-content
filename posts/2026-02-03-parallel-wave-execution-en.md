@@ -1,6 +1,7 @@
 ---
 title: "Wave-Based Task Orchestration: When Theoretical Parallelism Meets Reality"
 date: 2026-02-03
+author: Raoul
 categories: [architecture, ai-agents]
 tags: [orchestration, parallel-execution, task-planning, dependency-management]
 draft: false

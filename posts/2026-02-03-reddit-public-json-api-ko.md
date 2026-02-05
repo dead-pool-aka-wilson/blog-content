@@ -1,6 +1,7 @@
 ---
 title: "Reddit OAuth 차단됨? Public JSON API는 여전히 작동한다"
 date: 2026-02-03
+author: Raoul
 categories: [api, workaround]
 tags: [reddit, api, scraping, oauth, public-api]
 draft: false

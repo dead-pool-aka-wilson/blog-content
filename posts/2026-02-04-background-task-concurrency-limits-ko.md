@@ -1,6 +1,7 @@
 ---
 title: "병렬성의 함정: 왜 22개의 AI 에이전트가 5개보다 느릴까?"
 date: 2026-02-04
+author: Raoul
 categories: [Performance, AI]
 tags: [ai-agents, performance, concurrency, opencode]
 draft: false

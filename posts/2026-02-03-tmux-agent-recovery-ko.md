@@ -1,6 +1,7 @@
 ---
 title: "AI 에이전트 진행상황 잃지 않기: 원격 세션을 위한 Tmux"
 date: 2026-02-03
+author: Raoul
 categories: [workflow, devops]
 tags: [tmux, ssh, ai-agents, remote-work, recovery]
 draft: false

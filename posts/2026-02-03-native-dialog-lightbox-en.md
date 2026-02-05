@@ -1,6 +1,7 @@
 ---
 title: "Ditch Your Lightbox Library: Native Dialog Does It Better"
 date: 2026-02-03
+author: Raoul
 categories: [frontend, html5]
 tags: [dialog, lightbox, html5, accessibility, no-javascript]
 draft: false

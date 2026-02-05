@@ -1,6 +1,7 @@
 ---
 title: "Git Worktrees: Running Multiple AI Agents on the Same Repo"
 date: 2026-02-03
+author: Raoul
 categories: [workflow, git]
 tags: [git, worktree, ai-agents, parallel-work, multi-session]
 draft: false

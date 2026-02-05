@@ -1,6 +1,7 @@
 ---
 title: "Building Your Own /today Command: A Teresa Torres Approach to Personal AI"
 date: 2026-02-03
+author: Raoul
 categories: [productivity, automation]
 tags: [ai-assistant, morning-routine, obsidian, automation, personal-productivity]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "두 번 커밋해야 했던 이유: 다국어 콘텐츠 관리의 교훈"
 date: 2026-02-04
+author: Raoul
 categories: [debugging, lessons-learned]
 tags: [i18n, automation, git]
 draft: false

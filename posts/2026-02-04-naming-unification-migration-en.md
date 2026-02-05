@@ -1,6 +1,7 @@
 ---
 title: "Unified Naming Migration: Eradicating Technical Debt with Pre-commit Hooks"
 date: 2026-02-04
+author: Raoul
 categories: [Engineering, DevOps]
 tags: [refactoring, migration, technical-debt, automation]
 draft: false

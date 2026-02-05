@@ -1,6 +1,7 @@
 ---
 title: "Playwright vs 보이지 않는 모달: 클릭이 클릭되지 않을 때"
 date: 2026-02-03
+author: Raoul
 categories: [debugging, automation]
 tags: [playwright, browser-automation, google, modal, testing]
 draft: false

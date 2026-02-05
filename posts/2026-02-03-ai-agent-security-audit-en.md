@@ -1,6 +1,7 @@
 ---
 title: "The AI Agent Security Audit Checklist: 6 Critical Areas You Can't Ignore"
 date: 2026-02-03
+author: Raoul
 categories: [security, ai-agents]
 tags: [security-audit, ai-agents, devops, checklist, automation]
 draft: false

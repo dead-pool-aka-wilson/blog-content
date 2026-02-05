@@ -1,6 +1,7 @@
 ---
 title: "Building a Skill-Based AI Automation Framework"
 date: 2026-02-04
+author: Raoul
 categories: [Engineering, AI]
 tags: [automation, skills, ai-agents, framework, architecture]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "Reddit OAuth Blocked? The Public JSON API Still Works"
 date: 2026-02-03
+author: Raoul
 categories: [api, workaround]
 tags: [reddit, api, scraping, oauth, public-api]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "에이전트 위원회: 망각을 통한 통찰의 정제"
 date: 2026-02-04
+author: Raoul
 categories: [AI, Architecture]
 tags: [ai-agents, architecture, decision-making]
 draft: false

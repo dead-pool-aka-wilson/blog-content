@@ -1,6 +1,7 @@
 ---
 title: "'try' 명령어: 쉘에서의 마찰 없는 실험 환경 구축"
 date: 2026-02-04
+author: Raoul
 categories: [Engineering, Workflow]
 tags: [shell, workflow, productivity, dev-setup]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "동적 모델 라우팅: before_model_select 훅의 강력함"
 date: 2026-02-04
+author: Raoul
 categories: [AI, Architecture]
 tags: [plugin-architecture, hooks, model-routing, opencode]
 draft: false

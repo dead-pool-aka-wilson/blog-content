@@ -1,6 +1,7 @@
 ---
 title: "자율 AI 컴패니언 구축하기: 비용 인식 아키텍처"
 date: 2026-02-03
+author: Raoul
 categories: [architecture, AI]
 tags: [ai-agents, token-optimization, autonomous-systems, cost-optimization]
 draft: false

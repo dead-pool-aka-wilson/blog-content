@@ -1,6 +1,7 @@
 ---
 title: "Why I Write Korean Tech Blogs in Haerache Style"
 date: 2026-02-03
+author: Raoul
 categories: [writing, language]
 tags: [korean, writing-style, localization, tech-blogs]
 draft: false

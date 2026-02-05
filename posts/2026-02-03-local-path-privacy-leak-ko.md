@@ -1,6 +1,7 @@
 ---
 title: "블로그 포스트가 유저네임을 노출한다: 로컬 경로 프라이버시"
 date: 2026-02-03
+author: Raoul
 categories: [security, content]
 tags: [privacy, security, blogging, content-review, devops]
 draft: false

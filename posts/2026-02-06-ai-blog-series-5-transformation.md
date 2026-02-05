@@ -6,6 +6,7 @@ categories: [meta]
 tags: [ai-blog-series, content-creation, writing-process, workflow]
 draft: false
 summary: "Why the gap between thought and article kills most ideas, and how dialogue with AI bridges it."
+lang: en
 cover:
   image: "/covers/cover-2026-02-06-ai-blog-series-5-transformation.png"
 series: ["Building a Blog with AI"]

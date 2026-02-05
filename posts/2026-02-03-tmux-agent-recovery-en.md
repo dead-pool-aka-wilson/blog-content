@@ -1,6 +1,7 @@
 ---
 title: "Never Lose AI Agent Progress: Tmux for Remote Sessions"
 date: 2026-02-03
+author: Raoul
 categories: [workflow, devops]
 tags: [tmux, ssh, ai-agents, remote-work, recovery]
 draft: false

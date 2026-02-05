@@ -1,6 +1,7 @@
 ---
 title: "Sandboxing AI Agents at the OS Level: User-Scoped Firewall Rules"
 date: 2026-02-03
+author: Raoul
 categories: [security, infrastructure]
 tags: [firewall, macos, pf, ai-agents, service-isolation]
 draft: false

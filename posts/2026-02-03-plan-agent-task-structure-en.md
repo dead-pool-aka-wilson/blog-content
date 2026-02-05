@@ -1,6 +1,7 @@
 ---
 title: "Structured Task Templates for AI Agent Delegation"
 date: 2026-02-03
+author: Raoul
 categories: [ai-agents, architecture]
 tags: [task-planning, delegation, prompt-engineering, ai-orchestration]
 draft: false
